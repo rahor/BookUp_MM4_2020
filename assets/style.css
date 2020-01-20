@@ -61,8 +61,16 @@ h2 {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+}
+
+.emprunts_carte img, .emprunts_carte div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.emprunts_carte div{
+    padding-left: 15px;
 }
 
 .home_titre{
@@ -78,8 +86,6 @@ h2 {
 }
 
 .wrapper{
-    padding-top: 25px;
-    /* padding-left: 20px; */
     padding-right:20px ;
 }
 
@@ -137,6 +143,15 @@ h2 {
     padding-bottom: 6px;
 }
 
+.livre{
+    display: inline-block;
+    margin: 0 31px 0 0px;
+    max-width: 108px;
+}
+
+.slider .livre:nth-of-type(1){
+    margin-left: 20px;
+}
 
 /* CATEGORIES */
 .categories_carte{ 
@@ -167,7 +182,7 @@ opacity: 0.75;
 }
 
 
-.categories {
+.slider {
     position: relative;
     width: 100%;
     overflow-x: scroll;
@@ -177,15 +192,9 @@ opacity: 0.75;
     will-change: transform;
     user-select: none;
     cursor: pointer;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
 
-
-  .categories.active {
-    cursor: grabbing;
-    cursor: -webkit-grabbing;
-    transform: scale(1);
-  }
 
  
   .categories_carte{
