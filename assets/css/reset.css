@@ -10,6 +10,8 @@
     --couleurs-categoriewebd: #bf6ca3;
     --nav-bg-color: #233449;
 
+
+    
   }
 
 *,
@@ -31,19 +33,6 @@ body {
   max-width: 560px;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-p,
-span {
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-  font-weight: var(--roboto-weight-regular);
-  font-size: 18px;
-  line-height: 24px;
-} */
 a {
   text-decoration: none;
 }
@@ -51,10 +40,14 @@ a {
 
 nav{
     position: fixed;
-    
     width: 100%;
-height: 52px;
-bottom: 0;
-background-color: var(--nav-bg-color) ;
-z-index: 1000;
+    height: 52px;
+    bottom: 0;
+    background-color: var(--nav-bg-color) ;
+    z-index: 1000;
+    border-radius:15px 15px 0 0;
+    -webkit-border-radius:15px 15px 0 0;
+    -moz-border-radius:15px 15px 0 0;
+    -ms-border-radius:15px 15px 0 0;
+    -o-border-radius:15px 15px 0 0;
 }
