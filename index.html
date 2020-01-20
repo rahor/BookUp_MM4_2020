@@ -126,57 +126,37 @@
       <p>Tout voir</p>
     </div>
 
-    <div class="categories">
-    <div class="cardcategories"> 
-        <p class="titrecategorie">PHP</p>
-        <p class="quantitélivres">4 livres</p>
+    <div class="slider">
+        <div class="categories">
+            <div class="cardcategories"> 
+                <p class="titrecategorie">PHP</p>
+                <p class="quantitélivres">4 livres</p>
+            </div>
+        
+            <div class="cardcategories"> 
+                <p class="titrecategorie">Javascript</p>
+                <p class="quantitélivres">4 livres</p>
+            </div>
+        
+            <div class="cardcategories"> 
+                <p class="titrecategorie">WebDesign</p>
+                <p class="quantitélivres">10 livres</p>
+            </div>
+        
+            <div class="cardcategories"> 
+                <p class="titrecategorie">JSON</p>
+                <p class="quantitélivres">4 livres</p>
+            </div>
+        </div>
     </div>
 
-    <div class="cardcategories"> 
-        <p class="titrecategorie">Javascript</p>
-        <p class="quantitélivres">4 livres</p>
-    </div>
-
-    <div class="cardcategories"> 
-        <p class="titrecategorie">WebDesign</p>
-        <p class="quantitélivres">10 livres</p>
-    </div>
-
-    <div class="cardcategories"> 
-        <p class="titrecategorie">JSON</p>
-        <p class="quantitélivres">4 livres</p>
-    </div>
-
-    </div>
 </div>
 
 
-<main class="grid-item">
-    <div class="items">
-        <div class="cardcategories"> 
-            <p class="titrecategorie">PHP</p>
-            <p class="quantitélivres">4 livres</p>
-        </div>
-    
-        <div class="cardcategories"> 
-            <p class="titrecategorie">Javascript</p>
-            <p class="quantitélivres">4 livres</p>
-        </div>
-    
-        <div class="cardcategories"> 
-            <p class="titrecategorie">WebDesign</p>
-            <p class="quantitélivres">10 livres</p>
-        </div>
-    
-        <div class="cardcategories"> 
-            <p class="titrecategorie">JSON</p>
-            <p class="quantitélivres">4 livres</p>
-        </div>
-    </div>
-</main>
+
 
 <script>
-const slider = document.querySelector('.items');
+const slider = document.querySelector('.categories');
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -209,15 +189,9 @@ slider.addEventListener('mousemove', (e) => {
 
 
 <style>
- .grid-item {
-    color: #fff;
-    /* background: gray; */
-    font-size: 1em;
-    font-weight: 700;
-  }
 
 
-  .items {
+  .categories {
     position: relative;
     width: 100%;
     overflow-x: scroll;
@@ -227,10 +201,11 @@ slider.addEventListener('mousemove', (e) => {
     will-change: transform;
     user-select: none;
     cursor: pointer;
+    padding-bottom: 20px;
   }
 
 
-  .items.active {
+  .categories.active {
     cursor: grabbing;
     cursor: -webkit-grabbing;
     transform: scale(1);
@@ -242,7 +217,7 @@ slider.addEventListener('mousemove', (e) => {
     /* background: skyblue; */
     margin: 0 9px 0 0px;
   }
-  .items .cardcategories:nth-of-type(1){
+  .categories .cardcategories:nth-of-type(1){
       margin-left: 20px;
   }
   
