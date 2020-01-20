@@ -45,3 +45,74 @@ border-radius: 0px 0px 10px 10px;
         
         color: #FFFFFF;
      }
+
+     .etoile {
+        width: 14px;
+        height: 15px;
+        
+     }
+
+    .p {
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    }
+
+.lelivre {
+    /* heading3 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+
+color: #FAFAFA;
+}
+
+.autor {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FAFAFA;
+}
+
+.pages {
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FAFAFA;
+}
+
+.indicelibro {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+padding: 17px;
+}
