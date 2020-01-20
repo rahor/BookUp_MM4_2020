@@ -1,3 +1,15 @@
+:root{
+    --main-color: #ffbb0c;
+    --couleur-background: #191e2d;
+    --couleur-prêt: #cdcdcd;
+    --couleulivreemprunté: #233449;
+    --couleur-joursdemprunt1: #ff3333;
+    --couleurs-joursdeprunt2: #3369ff;
+    --couleurs-categoriephp: #7271d4;
+    --couleurs-categoriejs: #3b9c82;
+    --couleurs-categoriewebd: #bf6ca3;
+  }
+
 *,
 *:before,
 *:after {
@@ -8,12 +20,14 @@
   LOCAL RESET
 */
 body {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: var(--couleur-background);
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
   margin: 0;
-  color: var(--content-dark);
+  color: white;
   max-width: 560px;
 }
-h1,
+
+/* h1,
 h2,
 h3,
 h4,
@@ -25,8 +39,7 @@ span {
   font-weight: var(--roboto-weight-regular);
   font-size: 18px;
   line-height: 24px;
-}
+} */
 a {
   text-decoration: none;
-  /* color: red; */
 }

@@ -5,3 +5,29 @@ body{
     color: white;
     /* background-color: red; */
 }
+
+h1 {
+
+    
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffbb0c;
+  }
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;  
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.listEmprunts {
+    /* font-family: Poppins; */
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
