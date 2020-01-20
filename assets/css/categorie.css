@@ -1,0 +1,27 @@
+.categories{ 
+    padding: 7px 16px;
+    width: 144px;
+    height: 71px;
+    background-color: #7271D4;
+    border-radius: 5px;
+    color: white;
+
+}
+.titrecategorie {
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+}
+
+.quantitélivres {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+opacity: 0.75;
+}
