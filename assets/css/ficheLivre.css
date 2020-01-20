@@ -1,0 +1,47 @@
+.fiche {
+padding: 73px 24px;     
+width: 375px;
+height: 109px;
+
+
+background: #3B9C82;
+border-radius: 0px 0px 10px 10px;
+}
+
+.livre { 
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: semibold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #FAFAFA;
+    
+    mix-blend-mode: normal;}
+
+    img {
+        width: 87px;
+        height: 132px;
+        border-radius: 10px;
+     }
+
+     .boutondispo {
+        width: 66px;
+        height: 21.15px;
+        background: #3B9C6D;
+        border-radius: 7px;
+     }
+
+     .dispo2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+        
+        color: #FFFFFF;
+     }
