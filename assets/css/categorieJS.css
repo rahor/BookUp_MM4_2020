@@ -1,0 +1,48 @@
+.fiche_infos_titre{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+
+.carte{
+    width: 90%;
+    margin: auto;
+    padding: 20px 10px;
+    display: block;
+    border-bottom: 1px solid grey;
+}
+
+.carte:last-of-type{
+    border-bottom: none;
+}
+
+.carte img, .carte div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fiche{
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+
+.fiche_infos_auteur{
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 3px;
+    color: #b6b6b6;
+  }
+
+
+  .carte img{
+    max-width: 72px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
