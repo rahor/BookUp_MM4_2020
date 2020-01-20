@@ -19,30 +19,29 @@ h2 {
     line-height: 30px;  
     color: #ffffff;
     opacity: 0.9;
-    padding-bottom: 16px;
 }
 
 
-.listeEmprunt {
+.wrapper_emprunt_liste {
     font-weight: bold;
     font-size: 14px;
     line-height: 21px;
   }
 
-.titleSection p, .titlewrapper p {
+.titreSection p, .wrapper_emprunt_title p {
     font-size: 12px;
     line-height: 18px;
     color: #ffbb0c;
 }
 
-.titlewrapper {
+.wrapper_emprunt_title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     
 }
 
-.titreLivre{
+.emprunts_infos_titre, .livre_infos_titre{
     font-weight: 600;
     font-size: 13px;
     line-height: 19px;
@@ -51,7 +50,7 @@ h2 {
 
 
 
-.card{
+.emprunts_carte{
     width: 214px;
     height: 99px;
     background-color:  var(--couleulivreemprunté);
@@ -66,12 +65,16 @@ h2 {
     justify-content: space-between;
 }
 
-.navHome{
+.home_titre{
     display: flex;
    padding: 15px 20px;
 }
-.navHome h1{
+.home_titre h1{
     margin-right: 26px;
+}
+
+.home_titre h1:last-of-type{
+    color: grey;
 }
 
 .wrapper{
@@ -80,27 +83,28 @@ h2 {
     padding-right:20px ;
 }
 
-.wrapperEmprunt{
+.wrapper_emprunt{
     padding-left: 20px;
     padding-right: 20px;
 }
 
 
-.titleSection{
+.titreSection{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
+    margin-bottom: 16px;
 }
 
-.auteur{
+.emprunts_infos_auteur{
     font-size: 11px;
     line-height: 16px;
     padding-top: 3px;
     color: #b6b6b6;
   }
 
-  .jours{
+  .emprunts_infos_jour{
     font-size: 11px;
   line-height: 16px;
   color: #ff3333;  
@@ -113,7 +117,7 @@ h2 {
       justify-content: space-around;
   }
 
-  .card img{
+  .emprunts_carte img{
       max-width: 52px;
       border-radius: 5px;
       -webkit-border-radius: 5px;
@@ -135,7 +139,7 @@ h2 {
 
 
 /* CATEGORIES */
-.cardcategories{ 
+.categories_carte{ 
     padding: 7px 16px;
     width: 144px;
     height: 71px;
@@ -144,7 +148,7 @@ h2 {
     color: white;
     /* display: inline-block; */
 }
-.titrecategorie {
+.categories_titre {
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
@@ -152,7 +156,7 @@ font-size: 18px;
 line-height: 27px;
 }
 
-.quantitélivres {
+.categories_quantite {
     font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -161,3 +165,42 @@ line-height: 22px;
 /* identical to box height */
 opacity: 0.75;
 }
+
+
+.categories {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    padding-bottom: 20px;
+  }
+
+
+  .categories.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+  }
+
+ 
+  .categories_carte{
+    display: inline-block;
+    margin: 0 9px 0 0px;
+  }
+  .categories .categories_carte:nth-of-type(1){
+      margin-left: 20px;
+  }
+
+  /* NAVIGATION */
+
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15%;
+  }
