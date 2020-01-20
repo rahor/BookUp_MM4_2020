@@ -3,7 +3,7 @@
 body{
     max-width: 375px;
     color: white;
-    /* background-color: red; */
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h2 {
     line-height: 30px;  
     color: #ffffff;
     opacity: 0.9;
+    padding-bottom: 16px;
 }
 
 
@@ -120,9 +121,7 @@ nav h1{
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
 }
-.livre{
-    padding-top: 15px;
-}
+
 .livre img{
     width: 108px;
     height: 163px;
@@ -132,4 +131,34 @@ nav h1{
     -ms-border-radius:10px ;
     -o-border-radius:10px ;
     padding-bottom: 6px;
+}
+
+
+/* CATEGORIES */
+.cardcategories{ 
+    padding: 7px 16px;
+    width: 144px;
+    height: 71px;
+    background-color: #7271D4;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
+.titrecategorie {
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+}
+
+.quantitélivres {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+opacity: 0.75;
 }
