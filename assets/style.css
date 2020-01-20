@@ -120,3 +120,16 @@ nav h1{
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
 }
+.livre{
+    padding-top: 15px;
+}
+.livre img{
+    width: 108px;
+    height: 163px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    padding-bottom: 6px;
+}
