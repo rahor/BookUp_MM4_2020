@@ -151,18 +151,27 @@
 </div>
 
 
-<main class="grid-item main">
+<main class="grid-item">
     <div class="items">
-      <div class="item item1"></div>
-      <div class="item item2"></div>
-      <div class="item item3"></div>
-      <div class="item item4"></div>
-      <div class="item item5"></div>
-      <div class="item item6"></div>
-      <div class="item item7"></div>
-      <div class="item item8"></div>
-      <div class="item item9"></div>
-      <div class="item item10"></div>
+        <div class="cardcategories"> 
+            <p class="titrecategorie">PHP</p>
+            <p class="quantitélivres">4 livres</p>
+        </div>
+    
+        <div class="cardcategories"> 
+            <p class="titrecategorie">Javascript</p>
+            <p class="quantitélivres">4 livres</p>
+        </div>
+    
+        <div class="cardcategories"> 
+            <p class="titrecategorie">WebDesign</p>
+            <p class="quantitélivres">10 livres</p>
+        </div>
+    
+        <div class="cardcategories"> 
+            <p class="titrecategorie">JSON</p>
+            <p class="quantitélivres">4 livres</p>
+        </div>
     </div>
 </main>
 
@@ -192,7 +201,6 @@ slider.addEventListener('mousemove', (e) => {
   const x = e.pageX - slider.offsetLeft;
   const walk = (x - startX) * 3; //scroll-fast
   slider.scrollLeft = scrollLeft - walk;
-  console.log(walk);
 });
 </script>
 
@@ -203,8 +211,7 @@ slider.addEventListener('mousemove', (e) => {
 <style>
  .grid-item {
     color: #fff;
-    background: gray;
-    padding: 3.5em 1em;
+    /* background: gray; */
     font-size: 1em;
     font-weight: 700;
   }
@@ -217,7 +224,6 @@ slider.addEventListener('mousemove', (e) => {
     overflow-y: hidden;
     white-space: nowrap;
     transition: all 0.2s;
-    transform: scale(0.98);
     will-change: transform;
     user-select: none;
     cursor: pointer;
@@ -225,19 +231,20 @@ slider.addEventListener('mousemove', (e) => {
 
 
   .items.active {
-    background: rgba(255,255,255,0.3);
     cursor: grabbing;
     cursor: -webkit-grabbing;
     transform: scale(1);
   }
 
-  .item {
+ 
+  .cardcategories{
     display: inline-block;
-    background: skyblue;
-    min-height: 200px;
-    min-width: 200px;
-    margin: 2em 1em;
-  
+    /* background: skyblue; */
+    margin: 0 9px 0 0px;
   }
+  .items .cardcategories:nth-of-type(1){
+      margin-left: 20px;
+  }
+  
 
 </style>

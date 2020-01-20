@@ -141,10 +141,9 @@ h2 {
     background-color: #7271D4;
     border-radius: 5px;
     color: white;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .titrecategorie {
-
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
