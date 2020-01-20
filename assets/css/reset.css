@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*
+  LOCAL RESET
+*/
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  color: var(--content-dark);
+  max-width: 375px;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: var(--roboto-weight-regular);
+  font-size: 18px;
+  line-height: 24px;
+}
+a {
+  text-decoration: none;
+}
