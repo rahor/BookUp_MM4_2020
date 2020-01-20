@@ -2,7 +2,7 @@
     --main-color: #ffbb0c;
     --couleur-background: #191e2d;
     --couleur-prêt: #cdcdcd;
-    --couleulivreemprunté: #233449;
+    --couleulivreemprunté: #233449; 
     --couleur-joursdemprunt1: #ff3333;
     --couleurs-joursdeprunt2: #3369ff;
     --couleurs-categoriephp: #7271d4;
@@ -14,6 +14,8 @@
 *:before,
 *:after {
   box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 
 /*

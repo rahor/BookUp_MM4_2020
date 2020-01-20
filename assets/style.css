@@ -36,3 +36,35 @@ h2 {
     line-height: 18px;
     color: #ffbb0c;
 }
+
+.titreLivre{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+
+.card{
+    width: 214px;
+    height: 99px;
+    background-color:  var(--couleulivreemprunté);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+nav{
+    display: flex;
+   padding: 15px 23px;
+}
+nav h1{
+    margin-right: 26px;
+}
+
+.wrapper{
+    padding-top: 25px;
+}
