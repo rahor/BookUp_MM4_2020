@@ -23,7 +23,8 @@ h2 {
     opacity: 0.9;
 }
 
-.listEmprunts {
+
+.listeEmprunt {
     /* font-family: Poppins; */
     /* font-style: normal; */
     font-weight: bold;
@@ -31,10 +32,17 @@ h2 {
     line-height: 21px;
   }
 
-.titleSection p {
+.titleSection p, .titlewrapper p {
     font-size: 12px;
     line-height: 18px;
     color: #ffbb0c;
+}
+
+.titlewrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
 }
 
 .titreLivre{
@@ -59,7 +67,7 @@ h2 {
 
 nav{
     display: flex;
-   padding: 15px 23px;
+   padding: 15px 20px;
 }
 nav h1{
     margin-right: 26px;
@@ -67,4 +75,6 @@ nav h1{
 
 .wrapper{
     padding-top: 25px;
+    padding-left: 20px;
+    padding-right:20px ;
 }
