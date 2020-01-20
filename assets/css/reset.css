@@ -8,6 +8,8 @@
     --couleurs-categoriephp: #7271d4;
     --couleurs-categoriejs: #3b9c82;
     --couleurs-categoriewebd: #bf6ca3;
+    --nav-bg-color: #233449;
+
   }
 
 *,
@@ -44,4 +46,15 @@ span {
 } */
 a {
   text-decoration: none;
+}
+
+
+nav{
+    position: fixed;
+    
+    width: 100%;
+height: 52px;
+bottom: 0;
+background-color: var(--nav-bg-color) ;
+z-index: 1000;
 }
