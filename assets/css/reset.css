@@ -11,7 +11,7 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   margin: 0;
   color: var(--content-dark);
-  max-width: 375px;
+  max-width: 560px;
 }
 h1,
 h2,
@@ -29,8 +29,4 @@ span {
 a {
   text-decoration: none;
   color: red;
-}
-
-html{
-    background-color: blue;
 }
