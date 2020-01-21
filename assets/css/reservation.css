@@ -1,6 +1,6 @@
 .fleche{
     position: absolute;
-    top : 28px;
+    top : 25px;
     left: 24px;
 }
 
@@ -99,3 +99,28 @@ margin: auto;
     right: 5%;
 bottom: 20px;
     }
+
+
+
+
+/* PAGE RECAP */
+
+.recapitulatif_dates{
+    display: flex;
+    text-align: center;
+    padding:30px;
+    justify-content: space-between;
+}
+
+.recap_retrait, .recap_retour {
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+}
+
+.recap_retrait_date, .recap_retour_date {
+font-weight: bold;
+font-size: 21px;
+line-height: 31px;
+color: #FFBB0C;
+}

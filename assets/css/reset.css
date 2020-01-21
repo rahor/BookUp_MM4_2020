@@ -47,7 +47,7 @@ nav{
     max-width: 560px;
     width: 100%;
     height: 52px;
-    bottom: 0;
+    bottom: 0px;
     background-color: var(--nav-bg-color) ;
     z-index: 1000;
     border-radius:15px 15px 0 0;
