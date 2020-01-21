@@ -1,31 +1,31 @@
 .fiche {
-padding: 73px 24px;     
-width: 375px;
-height: 109px;
-
-
-background: #3B9C82;
-border-radius: 0px 0px 10px 10px;
+    padding: 24px 0 0 20%;
+    width: 100%;
+    height: 109px;
+    background: #3B9C82;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
 }
 
-.jstitre { 
+.fiche_titre { 
     
     font-family: Poppins;
     font-style: normal;
-    font-weight: semibold;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-    
-    
-    color: #FAFAFA;
-    
-    mix-blend-mode: normal;}
+
+}
 
     img {
-        width: 87px;
-        height: 132px;
+        width: 28%;
         border-radius: 10px;
+        margin: -25px auto 0 auto;
+        display: block;
+
      }
 
      .boutondispo {
@@ -33,20 +33,22 @@ border-radius: 0px 0px 10px 10px;
         height: 21.15px;
         background: #3B9C6D;
         border-radius: 7px;
-     }
-
-     .dispo2 {
-        font-family: Poppins;
-        font-style: normal;
+        padding: 4px;
         font-weight: bold;
-        font-size: 10px;
-        line-height: 15px;
-        text-align: center;
-        
-        color: #FFFFFF;
+font-size: 10px;
+line-height: 15px;
+text-align: center;
+float: right;
      }
 
-     .etoile {
+     .fleche{
+        position: absolute;
+        top : 28px;
+        left: 24px;
+    }
+  
+
+   .etoile {
         width: 14px;
         height: 15px;
         
@@ -58,133 +60,80 @@ font-style: normal;
 font-weight: normal;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height */
-
-
 color: #FFFFFF;
     }
 
-.lelivre {
-    /* heading3 */
 
-font-family: Poppins;
-font-style: normal;
+.infos_livre{
+    text-align: center;
+    padding-top: 12px ;
+}
+.infos_livre_titre {
 font-weight: 600;
 font-size: 15px;
 line-height: 22px;
 text-align: center;
-
-color: #FAFAFA;
 }
 
-.autor {
-    font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+.infos_livre_auteur, .infos_livre_page {
 font-size: 11px;
 line-height: 16px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FAFAFA;
+padding-top: 3px;
+}
+.infos_livre_page{
+    padding-top: 6px;
 }
 
-.pages {
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 16px;
-/* identical to box height */
-
-
-color: #FAFAFA;
-}
-
-.indicelibro {
+.table {
     font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
 line-height: 19px;
-/* identical to box height */
-
 text-align: center;
-
-color: #FFFFFF;
-
-padding: 2px;
-border-bottom: 1px solid #FFBB0C;
-width: 216px;
-
-
-
+padding-top: 16px;
+text-decoration: underline #FFBB0C;
+text-underline-position: 10px;
+/* border-bottom: 1px solid #FFBB0C; */
+margin-bottom: 25px;
 }
 
-.boutonreserver {
-padding: 36px ;
+.bouton_reserver {
+padding: 11px 90px ;
 width: 296.8px;
 height: 47px;
-
-background: #3B9C6D;
-border-radius: 10px;
-}
-
-.reserver {
-
-font-family: Poppins;
-font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 27px;
 text-align: center;
-
-color: #FFFFFF;
-}
-
-.livre{
-    padding: 25px;
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 22px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFBB0C;
-}
-
-.avis, .propriètaire {
-
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 22px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-opacity: 0.9;
+background: #3B9C6D;
+border-radius: 10px;
+display: block;
+margin: auto;
 }
 
 .onglets p{
-    display: inline-block;
-
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+opacity: 0.9;
+display: inline-block;
+margin-right: 10%;
 }
 
-.resumé {
-    padding: 25px 23px;
-    font-family: Poppins;
-font-style: normal;
+.onglets p:first-of-type{
+    color: #FFBB0C;
+    opacity:1;
+}
+
+
+.resumé h4 {
+    padding-top: 25px;
 font-weight: bold;
 font-size: 14px;
 line-height: 21px;
-
-color: #E0E0E0;
 }
 
 .inforesume {
@@ -200,3 +149,6 @@ line-height: 154.19%;
 color: #FFFFFF;
 }
 
+main{
+    padding: 25px;
+}
