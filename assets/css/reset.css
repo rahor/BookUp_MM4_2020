@@ -44,6 +44,7 @@ a:hover {
 
 nav{
     position: fixed;
+    max-width: 560px;
     width: 100%;
     height: 52px;
     bottom: 0;

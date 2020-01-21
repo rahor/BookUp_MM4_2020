@@ -26,16 +26,28 @@
 .fiche{
     padding-left: 18px;
     padding-top: 5px;
+    display: flex;
 }
 
 
-.fiche_infos_auteur{
+.fiche_infos_auteur, .fiche_note{
     font-size: 11px;
     line-height: 16px;
     padding-top: 3px;
     color: #b6b6b6;
   }
 
+  .fiche_note::before{
+    content: 'etoile';
+    position: relative;
+    left: -1px;
+  }
+
+  .fiche_nbLecteurs{
+    font-size: 10px;
+    line-height: 15px; 
+    color: #B6B6B6;
+  }
 
   .carte img{
     max-width: 72px;
