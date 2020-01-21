@@ -74,6 +74,7 @@ h1{
 
 .filtre_titre{
     position: relative;
+    padding-bottom: 25px;
 }
 
 .filtre_titre::before{
@@ -86,10 +87,17 @@ font-weight: normal;
 }
 
 .filtre_titre::after{
-    
+    position: absolute;
+    content: "/";
+    font-size: 11px;
+right: 2px;
+font-weight: bold;
+color: var(--main-color);
 }
 
+
 h3{
+    max-width: 40%;
     font-weight: 600;
 font-size: 15px;
 line-height: 22px;
