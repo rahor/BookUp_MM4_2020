@@ -1,0 +1,130 @@
+.recapitulatif_texto {
+    /* Heading2 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.recapitulatif_image {
+    padding: 10px;
+    width: 87px;
+    height: 132px;
+    border-radius: 10px;
+    
+    }
+
+.recapitulatif_etoile { 
+    width: 14px;
+    height: 15px;
+}
+
+.recapitulatif_note { 
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+    
+    .recapitulatif_titrejs {
+        /* heading3 */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FAFAFA;
+    
+    }
+    
+    .recapitulatif_auteur {
+    padding: 7px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    
+    
+    color: #FAFAFA;
+    }
+
+    .recap_propriétaire,.recap_durée {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        
+        
+        color: #FAFAFA;
+    }
+
+    .recap_nom, .recap_1m {
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+color: #FAFAFA;
+    }
+
+.recap_retrait, .recap_retour {
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FAFAFA;
+
+}
+
+.recap_retrait_date, .recap_retour_date {
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #FFBB0C;
+
+}
+
+.bouton_recapitulatif {
+    padding: 11px 90px ;
+    width: 296.8px;
+    height: 47px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    background: #3B9C6D;
+    border-radius: 10px;
+    margin: 0 auto;
+display: block;
+    }
