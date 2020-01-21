@@ -12,6 +12,7 @@
     padding: 20px 10px;
     display: block;
     border-bottom: 1px solid grey;
+    position: relative;
 }
 
 .carte:last-of-type{
@@ -142,4 +143,26 @@ border-bottom: 1px solid white;
     font-size: 13px;
     line-height: 19px;
     padding-top: 2px;
+}
+
+/* ETIQUETTE */
+.etiquette{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    padding: 3px 5px;
+    background-color: var(--disponible-color);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+main{
+    padding-bottom: 30px;
 }
