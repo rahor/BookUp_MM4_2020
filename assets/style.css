@@ -1,3 +1,5 @@
+@import "./css/reset.css"; 
+
 body{
     padding-bottom: 50px;
 }
@@ -87,9 +89,6 @@ h2 {
 .home_titre h1{
     margin-right: 26px;
 }
-
-
-
 
 
 

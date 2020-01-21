@@ -1,3 +1,5 @@
+@import "./reset.css"; 
+
 .fleche{
     position: absolute;
     top : 25px;
@@ -107,26 +109,31 @@ bottom: 20px;
 
 
 .recapitulatif_info{
-    display: flex;
+    padding: 0 25px;
 }
 
+
+.recapitulatif_intitule, .recapitulatif_valeur{
+    display: inline-block;
+}
 .recapitulatif_intitule {
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
+    padding-right: 60px;
 }
 
 .recapitulatif_valeur{
     font-weight: normal;
 font-size: 13px;
-line-height: 15px;
+line-height: 21px;
 }
 
 .recapitulatif_dates{
     display: flex;
     text-align: center;
     padding:30px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .recap_retrait, .recap_retour {
