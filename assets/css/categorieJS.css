@@ -58,3 +58,80 @@
     -o-border-radius: 5px;
     
 }
+
+
+h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    
+  }
+
+
+.filtre{
+      padding-left: 5%;
+  }
+
+.filtre_titre{
+    position: relative;
+}
+
+.filtre_titre::before{
+    position: absolute;
+    content: 'Trier par';
+    top : -15px;
+    font-size: 11px;
+line-height: 13px;
+font-weight: normal;
+}
+
+.filtre_titre::after{
+    
+}
+
+h3{
+    font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #FAFAFA;
+}
+
+
+.zonetitre{
+    text-align: center;
+    padding: 46px 0px 28px 0;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--js-color);
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    margin-bottom: 44px;
+}
+
+/* .zonetitre p, .zonetitre h1{text-align: center;} */
+
+  .fleche{
+      position: absolute;
+      top : 28px;
+      left: 24px;
+  }
+
+.zonetitre_suivre::after{
+    content:'+';
+    position: relative;
+    right: -10px;
+}
+
+
+.zonetitre_suivre{
+    font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+border-bottom: 1px solid white;
+}
+.zonetitre_nblivre{
+    font-size: 13px;
+    line-height: 19px;
+    padding-top: 2px;
+}
