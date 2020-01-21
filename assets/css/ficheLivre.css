@@ -20,7 +20,7 @@
 
 }
 
-    img {
+.img_principale {
         width: 28%;
         border-radius: 10px;
         margin: -25px auto 0 auto;
@@ -249,8 +249,4 @@ opacity: 0.75;
 
 .slider .livre:nth-of-type(1){
     margin-left: 25px;
-}
-.sliderLivre{
-    display: flex;
-    justify-content: space-around;
 }
