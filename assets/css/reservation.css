@@ -1,87 +1,90 @@
+.fleche{
+    position: absolute;
+    top : 28px;
+    left: 24px;
+}
 
-
-.confirmation_texto {
-    /* Heading2 */
-
-font-family: Poppins;
-font-style: normal;
+.title{
+position: absolute;
+left: 75px;
+top: 20px;
 font-weight: 600;
 font-size: 20px;
 line-height: 30px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
 }
 
-.confirmation_texto1 {
-    font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+
+.avancement{
+    width: 241px;
+    height: 40px;
+    background-color: #fff;
+    display: block;
+    margin: 81px auto 0 auto;
+}
+
+main{
+    padding-top: 30px;
+}
+
+.confirmation_titre {
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+}
+
+.confirmation_soustitre {
 font-size: 11px;
 line-height: 16px;
-/* identical to box height */
-
 text-align: center;
-
-color: #FFFFFF;
 }
 
 .confirmation_image {
-padding: 10px;
-width: 87px;
-height: 132px;
-border-radius: 10px;
-margin: 0 auto;
-display: block;
+    width: 87px;
+    height: 132px;
+    border-radius: 10px;
+    margin: 20px auto 11px auto;
+    display: block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .confirmation_titrejs {
-    /* heading3 */
-
-font-family: Poppins;
-font-style: normal;
 font-weight: 600;
 font-size: 15px;
 line-height: 22px;
 text-align: center;
-
-color: #FAFAFA;
-
-}
+padding: 0 40px ;
+} 
 
 .confirmation_auteur {
 padding: 7px;
-font-family: Poppins;
-font-style: normal;
 font-weight: normal;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height */
+text-align: center;}
 
-text-align: center;
 
-color: #FAFAFA;
-}
 
-.confirmation_paragraphe {
-padding: 8px 24px;
-font-family: Poppins;
-font-style: normal;
+.confirmation_paragraphe{
+padding: 20px 0 0;
 font-weight: normal;
 font-size: 13px;
 line-height: 15px;
-
-/* or 115% */
-
-
-color: #FAFAFA;
 }
 
+.confirmation_texte{
+padding-top: 10px;
+max-width: 80%;
+margin: auto;
+}
+
+
 .bouton_confirmation {
-    padding: 11px 90px ;
-    width: 296.8px;
+    padding: 11px 20px ;
+    width: 280px;
     height: 47px;
     font-weight: bold;
     font-size: 18px;
@@ -90,20 +93,9 @@ color: #FAFAFA;
     background: #3B9C6D;
     border-radius: 10px;
     margin: 0 auto;
-display: block;
+    
+    position: absolute;
+    left: 5%;
+    right: 5%;
+bottom: 20px;
     }
-
-
-  /**  .bouton_reserver {
-        padding: 11px 90px ;
-        width: 296.8px;
-        height: 47px;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 27px;
-        text-align: center;
-        background: #3B9C6D;
-        border-radius: 10px;
-        display: block;
-        margin: auto;
-        }**/
