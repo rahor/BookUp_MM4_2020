@@ -67,12 +67,14 @@ color: #FFFFFF;
 .infos_livre{
     text-align: center;
     padding-top: 12px ;
+   
 }
 .infos_livre_titre {
 font-weight: 600;
 font-size: 15px;
 line-height: 22px;
 text-align: center;
+padding: 0 4%;
 }
 
 .infos_livre_auteur, .infos_livre_page {
@@ -129,26 +131,23 @@ margin-right: 10%;
 }
 
 
-.resumé h4 {
+.resume h4 {
     padding-top: 25px;
 font-weight: bold;
 font-size: 14px;
 line-height: 21px;
 }
 
-.inforesume {
-padding: 11px 23px;
-font-family: Poppins;
-font-style: normal;
+.resume p {
+padding-top: 11px;
 font-weight: normal;
 font-size: 13px;
-line-height: 154.19%;
-/* or 20px */
-
-
-color: #FFFFFF;
+line-height: 20px;
 }
 
-main{
-    padding: 25px;
+.onglets{
+    margin-top: 25px;
+}
+.onglets, .resume{
+    padding: 0 25px;
 }
