@@ -105,6 +105,23 @@ bottom: 20px;
 
 /* PAGE RECAP */
 
+
+.recapitulatif_info{
+    display: flex;
+}
+
+.recapitulatif_intitule {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.recapitulatif_valeur{
+    font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+}
+
 .recapitulatif_dates{
     display: flex;
     text-align: center;
@@ -123,4 +140,5 @@ font-weight: bold;
 font-size: 21px;
 line-height: 31px;
 color: #FFBB0C;
+padding-top: 15px;
 }
