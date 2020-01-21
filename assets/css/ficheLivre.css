@@ -8,7 +8,7 @@ background: #3B9C82;
 border-radius: 0px 0px 10px 10px;
 }
 
-.livre { 
+.jstitre { 
     
     font-family: Poppins;
     font-style: normal;
@@ -114,5 +114,89 @@ text-align: center;
 
 color: #FFFFFF;
 
-padding: 17px;
+padding: 2px;
+border-bottom: 1px solid #FFBB0C;
+width: 216px;
+
+
+
 }
+
+.boutonreserver {
+padding: 36px ;
+width: 296.8px;
+height: 47px;
+
+background: #3B9C6D;
+border-radius: 10px;
+}
+
+.reserver {
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.livre{
+    padding: 25px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFBB0C;
+}
+
+.avis, .propriètaire {
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+opacity: 0.9;
+}
+
+.onglets p{
+    display: inline-block;
+
+}
+
+.resumé {
+    padding: 25px 23px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+
+color: #E0E0E0;
+}
+
+.inforesume {
+padding: 11px 23px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 154.19%;
+/* or 20px */
+
+
+color: #FFFFFF;
+}
+
