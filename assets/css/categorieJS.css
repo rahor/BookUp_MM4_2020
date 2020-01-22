@@ -1,80 +1,62 @@
-.fiche_infos_titre{
+@import "./reset.css"; 
+/* ZONE DE TITRE */
+.zonetitre{
+    text-align: center;
+    padding: 46px 0px 28px 0;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--js-color);
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    margin-bottom: 44px;
+}
+
+.zonetitre_suivre{
     font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+
+.zonetitre_suivre span{
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+
+.zonetitre_nblivre{
     font-size: 13px;
     line-height: 19px;
-    color: #ffffff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-
-.fiche{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
-    min-width: 0;
-}
-
-.carte:last-of-type{
-    border-bottom: none;
-}
-
-/* .carte img, .carte div{
-    display: inline-block;
-    vertical-align: top;
-} */
-
-.fiche{
-    padding-left: 18px;
     padding-top: 5px;
-    padding-bottom: 5px;
-    display: flex;
+}
+/* FIN ZONE DE TITRE */
+
+/* ZONE FILTRE */
+.filtre{
+    padding-left: 5%;
 }
 
+.filtre_titre{
+    position: relative;
+    padding-bottom: 25px;
+    padding-left: 5%;
+}
 
-.fiche_infos_auteur, .fiche_note{
+.filtre_titre::before{
+    position: absolute;
+    content: 'Trier par';
+    top : -15px;
     font-size: 11px;
-    line-height: 16px;
-    padding-top: 3px;
-    color: #b6b6b6;
-  }
-
-  .fiche_note{
-    display: flex;
-  }
-  
-  .etoile{
-    margin-right: 5px;
-  }
-
-  .fiche_nbLecteurs{
-    font-size: 10px;
-    line-height: 15px; 
-    color: #B6B6B6;
-  }
-
-  .carte img{
-    max-width: 72px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    
+    line-height: 13px;
+    font-weight: normal;
 }
 
-
-
-h1{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    
-  }
-
-  .chevron::before {
-	border-style: solid;
+.chevron::before {
+    border-style: solid;
     border-width: 2px 2px 0 0;
     border-color: var(--main-color);
 	content: '';
@@ -91,81 +73,74 @@ h1{
 	-ms-transform: rotate(135deg);
 	-o-transform: rotate(135deg);
 }
+/* FIN ZONE FILTRE */
 
-.filtre{
-      padding-left: 5%;
-  }
-
-.filtre_titre{
+/* ZONE LIVRES */
+.recommandation{
+    width: 90%;
+    margin: auto;
+    padding: 20px 10px;
+    display: flex;
+    border-bottom: 1px solid grey;
     position: relative;
-    padding-bottom: 25px;
+    color: white;
 }
 
-.filtre_titre::before{
-    position: absolute;
-    content: 'Trier par';
-    top : -15px;
-    font-size: 11px;
-line-height: 13px;
-font-weight: normal;
-}
-
-
-
-
-h3{
-    max-width: 40%;
+.fiche_infos_titre{
     font-weight: 600;
-font-size: 15px;
-line-height: 22px;
-color: #FAFAFA;
-}
-
-
-.zonetitre{
-    text-align: center;
-    padding: 46px 0px 28px 0;
-    border-radius: 0 0 10px 10px;
-    background-color: var(--js-color);
-    -webkit-border-radius: 0 0 10px 10px;
-    -moz-border-radius: 0 0 10px 10px;
-    -ms-border-radius: 0 0 10px 10px;
-    -o-border-radius: 0 0 10px 10px;
-    margin-bottom: 44px;
-}
-
-/* .zonetitre p, .zonetitre h1{text-align: center;} */
-
-  .fleche{
-      position: absolute;
-      top : 28px;
-      left: 24px;
-  }
-
-
-
-
-.zonetitre_suivre{
-    font-weight: 600;
-font-size: 15px;
-line-height: 22px;
-width: fit-content;
-margin: auto;
-border-bottom: 1px solid white;
-position: relative;
-}
-
-.zonetitre_suivre span{
-    position: absolute;
-    right: -15px;
-    top: 0;
-}
-
-.zonetitre_nblivre{
     font-size: 13px;
     line-height: 19px;
-    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.fiche{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    min-width: 0;
+    padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.recommandation:last-of-type{
+    border-bottom: none;
+}
+
+.fiche_infos_auteur, .fiche_note{
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 3px;
+    color: #b6b6b6;
+}
+
+.fiche_note{
+    display: flex;
+}
+
+.etoile{
+    margin-right: 5px;
+}
+
+.fiche_nbLecteurs{
+    font-size: 10px;
+    line-height: 15px; 
+    color: #B6B6B6;
+}
+
+.recommandation img{
+    max-width: 72px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;   
+}
+/* FIN ZONE LIVRES */
+
+
 
 /* ETIQUETTE */
 .etiquette{
@@ -185,6 +160,8 @@ position: relative;
     right: 1%;
 }
 
+
+
 .indisponible{
     background-color: var(--indisponible-color);
 }
@@ -193,14 +170,4 @@ main{
     padding-bottom: 30px;
 }
 
-
-.carte{
-    width: 90%;
-    margin: auto;
-    padding: 20px 10px;
-    display: flex;
-    border-bottom: 1px solid grey;
-    position: relative;
-    color: white;
-}
 

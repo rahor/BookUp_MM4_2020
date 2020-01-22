@@ -58,3 +58,32 @@ nav{
     -ms-border-radius:15px 15px 0 0;
     -o-border-radius:15px 15px 0 0;
 }
+
+.indisponible{
+  background-color: var(--indisponible-color);
+}
+
+
+h3{
+  max-width: 40%;
+  font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #FAFAFA;
+}
+
+
+.fleche{
+  position: absolute;
+  top : 28px;
+  left: 24px;
+}
+
+
+
+h1{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  
+}

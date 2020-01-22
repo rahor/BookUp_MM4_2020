@@ -5,12 +5,7 @@ body{
     padding-bottom: 50px;
 }
 
-h1{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    color: var(--h1-couleur);
-}
+
 
 h2 {
     font-weight: 600;
