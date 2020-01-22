@@ -1,26 +1,15 @@
-const slider = document.querySelector('.categories');
-let isDown = false;
-let startX;
-let scrollLeft;
+var step1 = document.querySelector('[data-id="1"]');
+var step2 = document.querySelector('[data-id="2"]');
+var step3 = document.querySelector('[data-id="3"]');
 
-slider.addEventListener('mousedown', (e) => {
-  isDown = true;
-  slider.classList.add('active');
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-});
-slider.addEventListener('mouseleave', () => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mouseup', () => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mousemove', (e) => {
-  if(!isDown) return;
-  e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX) * 3; //scroll-fast
-  slider.scrollLeft = scrollLeft - walk;
-});
+var step_button = document.querySelector('[data-button="1"]')
+
+
+
+
+step_button.addEventListener('click',()=>{
+  step1.style.opacity = "0";
+  step2.style.opacity = "1";
+  step1.style.pointerEvents = "none";
+  step2.style.pointerEvents = "auto";
+})
