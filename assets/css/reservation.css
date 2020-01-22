@@ -65,7 +65,7 @@ left:50%;
 
 
 main{
-    padding-top: 30px;
+    padding: 30px;
 }
 
 .confirmation_titre {
@@ -73,7 +73,6 @@ font-weight: 600;
 font-size: 20px;
 line-height: 30px;
 text-align: center;
-padding: 0 25px;
 }
 
 .confirmation_soustitre {
@@ -99,7 +98,6 @@ font-weight: 600;
 font-size: 15px;
 line-height: 22px;
 text-align: center;
-padding: 0 40px ;
 } 
 
 .confirmation_auteur {
@@ -120,8 +118,6 @@ line-height: 15px;
 
 .confirmation_texte{
 padding-top: 10px;
-max-width: 80%;
-margin: auto;
 }
 
 
@@ -150,7 +146,7 @@ bottom: 20px;
 
 
 .recapitulatif_info{
-    padding:  5px 25px;
+    padding:  5px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -166,7 +162,7 @@ bottom: 20px;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 .recapitulatif_valeur{
@@ -178,7 +174,7 @@ line-height: 21px;
 .recapitulatif_dates{
     display: flex;
     text-align: center;
-    padding:30px;
+    padding:10px 0;
     justify-content: space-around;
 }
 
