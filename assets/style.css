@@ -215,3 +215,16 @@ opacity: 0.75;
       padding: 0 15%;
   }
   
+
+
+
+  /* CATEGORIES */
+
+.categories_carte:nth-of-type(1){
+    background-color: tomato;
+}
+
+
+.categories_carte:nth-of-type(2){
+    background-color: black;
+}

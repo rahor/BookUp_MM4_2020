@@ -41,10 +41,10 @@ text-align: center;
 float: right;
      }
 
-     .fleche{
-        position: absolute;
-        top : 28px;
-        left: 24px;
+.fleche{
+      position: absolute;
+      top : 28px;
+      left: 24px;
     }
   
 .blocimage{
@@ -66,23 +66,14 @@ float: right;
     line-height: 35px;
     
 }
-   .etoile {
+
+.etoile {
         width: 14px;
         height: 15px;
         position: relative;
         top: -1px; 
         margin-right: 5px;
      }
-/* 
-    .p {
-        font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 16px;
-color: #FFFFFF;
-    } */
-
 
 .infos_livre{
     text-align: center;
