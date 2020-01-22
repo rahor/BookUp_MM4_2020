@@ -23,15 +23,16 @@
 </nav>
 
 <body>
+    <!-- TITRES PRINCIPAUX -->
     <div class="home_titre">
-        <h1>Emprunter</h1>
+        <h1 class="active">Emprunter</h1>
         <h1>Prêter</h1>
     </div>
 
-    <!-- TITRES PRINCIPAUX -->
-    <div class="wrapper_emprunt">
-        <div class="wrapper_emprunt_title">
-            <div class="wrapper_emprunt_liste">Mes emprunts actuels</div>
+    <!-- PARTIE EMPRUNTS -->
+    <div class="container_emprunt">
+        <div class="container_emprunt_title">
+            <div class="container_emprunt_liste">Mes emprunts actuels</div>
             <p>Tout voir</p>
         </div>
 
@@ -62,77 +63,78 @@
                     <p class="emprunts_infos_jour">15 jours restants</p>
                 </div>
             </div>
-
         </div>
     </div>
+    <!-- FIN PARTIE EMPRUNTS -->
 
-    <!-- SECTIONS RECO -->
-    <div class="wrapper">
+    <!-- SECTION RECOMMANDATIONS -->
+    <div class="container">
         <div class="titreSection">
             <h2>Recommandations</h2>
             <p>Tout voir</p>
         </div>
-
-
+        
+        
         <div class="slider">
             <div class="livre">
                 <img src="./assets/img/programmingpython.png" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">Programming P...</p>
-                    <p class="emprunts_infos_auteur">Mark Lutz</p>
+                    <p class="livre_infos_auteur">Mark Lutz</p>
                 </div>
             </div>
-
+            
             <div class="livre">
                 <img src="./assets/img/linuxbasics.jpeg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">Linux Basics for...</p>
-                    <p class="emprunts_infos_auteur">Occupytheweb</p>
+                    <p class="livre_infos_auteur">Occupytheweb</p>
                 </div>
-
+                
             </div>
 
             <div class="livre">
                 <img src="./assets/img/webdesignercherche.png" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">Web Designer</p>
-                    <p class="emprunts_infos_auteur">Mike Monteiro</p>
+                    <p class="livre_infos_auteur">Mike Monteiro</p>
                 </div>
             </div>
-
+            
             <div class="livre">
                 <img src="./assets/img/healthinformatics.jpg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">Health Informatics</p>
-                    <p class="emprunts_infos_auteur">Gordon D. Brown</p>
+                    <p class="livre_infos_auteur">Gordon D. Brown</p>
                 </div>
             </div>
-
+            
             <div class="livre">
                 <img src="./assets/img/Rfordatascience.jpg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">R for Data Science</p>
-                    <p class="emprunts_infos_auteur">Hadley Wickham</p>
+                    <p class="livre_infos_auteur">Hadley Wickham</p>
                 </div>
             </div>
-
+            
         </div>
     </div>
-
-
+    <!-- FIN SECTION RECOMMANDATIONS -->
+    
+    
     <!-- SECTIONS NOUVEAUTES -->
-    <div class="wrapper">
+    <div class="container">
         <div class="titreSection">
             <h2>Nouveautés</h2>
             <p>Tout voir</p>
         </div>
-
+        
         <div class="slider">
             <div class="livre">
                 <img src="./assets/img/designwebresponsive.jpg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">Design Responsive</p>
-                    <p class="emprunts_infos_auteur">Scott Jehl</p>
+                    <p class="livre_infos_auteur">Scott Jehl</p>
                 </div>
             </div>
 
@@ -140,7 +142,7 @@
                 <img src="./assets/img/mysqletphp_.jpg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">My SQL and PHP</p>
-                    <p class="emprunts_infos_auteur">Phillippe Rigaux</p>
+                    <p class="livre_infos_auteur">Phillippe Rigaux</p>
                 </div>
             </div>
 
@@ -148,28 +150,28 @@
                 <img src="./assets/img/lerningredhat.jpg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">Lerning Red Hat</p>
-                    <p class="emprunts_infos_auteur">Bill McCarty</p>
+                    <p class="livre_infos_auteur">Bill McCarty</p>
                 </div>
             </div>
             <div class="livre">
                 <img src="./assets/img/mysql.jpg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">My SQL</p>
-                    <p class="emprunts_infos_auteur">E. Williams</p>
+                    <p class="livre_infos_auteur">E. Williams</p>
                 </div>
             </div>
             <div class="livre">
                 <img src="./assets/img/tcpip.jpg" alt="">
                 <div class="livre_infos">
                     <p class="livre_infos_titre">TCP/IP</p>
-                    <p class="emprunts_infos_auteur">Eric Lalitte</p>
+                    <p class="livre_infos_auteur">Eric Lalitte</p>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="wrapper">
+    <div class="container">
         <div class="titreSection">
             <h2>Catégories</h2>
             <p>Tout voir</p>
@@ -180,26 +182,24 @@
             <a href="./assets/pages/categorieJS.html" class="categories_carte">
                 <p class="categories_titre">PHP</p>
                 <p class="categories_quantite">4 livres</p>
-            </a href="./assets/pages/categorieJS.html">
+            </a>
 
             <a href="./assets/pages/categorieJS.html" class="categories_carte">
                 <p class="categories_titre">Javascript</p>
                 <p class="categories_quantite">4 livres</p>
-            </a href="./assets/pages/categorieJS.html">
+            </a>
 
             <a href="./assets/pages/categorieJS.html" class="categories_carte">
                 <p class="categories_titre">WebDesign</p>
                 <p class="categories_quantite">10 livres</p>
-            </a href="./assets/pages/categorieJS.html">
+            </a>
 
             <a href="./assets/pages/categorieJS.html" class="categories_carte">
                 <p class="categories_titre">JSON</p>
                 <p class="categories_quantite">4 livres</p>
-            </a href="./assets/pages/categorieJS.html">
+            </a>
         </div>
     </div>
-
-
 
 </body>
 
