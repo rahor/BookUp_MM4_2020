@@ -132,17 +132,21 @@ color: #FFFFFF;
 
 
 
-.modederetrait_enmain{
-    /* heading3 */
-
-font-family: Poppins;
-font-style: normal;
+.modedderetrait_enmain{
+    
 font-weight: 600;
 font-size: 15px;
 line-height: 22px;
-/* identical to box height */
+padding-top: 10px;
+}
 
 
-color: #FFFFFF;
+.wrapper{
+    padding-bottom: 10px;
+}
 
+
+
+.emprunts_carte:hover{
+   box-shadow:0px 0px 0px 1px var(--main-color) inset;
 }

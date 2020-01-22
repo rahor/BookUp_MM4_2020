@@ -9,12 +9,12 @@
     padding: 15px 20px;
 }
 
-.barre_recherche{
+.barre_recherche_champs{
     padding: 10px 10px;
     background-color: transparent;
     color: white;
     margin: 0px auto 25px auto;
-    width: 50%;
+    width: 100%;
     display: block;
     font-weight: 500;
 font-size: 14px;
@@ -23,13 +23,27 @@ border: none;
 border-bottom: 1px solid white;
 }
 
-.barre_recherche::placeholder{
+.barre_recherche_champs::placeholder{
 font-weight: 500;
 font-size: 14px;
 line-height: 21px;
 color: #FFFFFF;
 opacity: 0.5;
 }
+
+
+.barre_recherche{
+    position: relative;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.barre_recherche p {
+    position: absolute;
+    right: 3px;
+    
+    bottom: 8px;
+  }
 
 .recherche_section_titre {
     padding-left: 20px;
@@ -44,8 +58,6 @@ opacity: 0.5;
     height: 71px;
     background-color: #7271D4;
     border-radius: 5px;
-    color: white;
-    /* display: inline-block; */
 }
 .categories_titre {
 
