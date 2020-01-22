@@ -150,3 +150,71 @@ padding-top: 10px;
 .emprunts_carte:hover{
    box-shadow:0px 0px 0px 1px var(--main-color) inset;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.categories_carte{ 
+    padding: 7px 16px;
+    width: 144px;
+    height: 71px;
+    background-color: #7271D4;
+    border-radius: 5px;
+}
+.categories_titre {
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+}
+
+.categories_quantite {
+font-size: 15px;
+line-height: 22px;
+opacity: 0.8;
+}
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    padding-bottom: 25px;
+  }
+
+
+ 
+  .categories_carte{
+
+    display: inline-block;
+    margin: 0 9px 0 0px;
+  }
+  .categories .categories_carte:nth-of-type(1){
+      margin-left: 20px;
+  } */
+
+  /* NAVIGATION */
+
+  /* nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15%;
+  } */

@@ -5,100 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="../css/reset.css"> -->
     <link rel="stylesheet" href="../css/recherche.css">
-    <!-- <link rel="stylesheet" href="../css/Glyphter.css"> -->
     <link rel="stylesheet" href="../style.css">
-    <title>Javascript</title>
+    <title>Recherche</title>
 </head>
 
-<nav>
 
+<!-- NAVIGATION -->
+<nav>
     <a href="../../index.html" class="icon-home "></a>
     <a href="#" class="icon-search active"></a>
     <a href="#" class="icon-flux"></a>
     <a href="#" class="icon-profil"></a>
-
-
-
 </nav>
 
 
 <body>
-    <h1 class="titre">Recherche</h1>
+    <h1 class="titre active">Recherche</h1>
 
+
+    <!-- RECHERCHE -->
     <div class="barre_recherche">
-        <input class="barre_recherche_champs" type="text" placeholder="livre, éditeur...">
+        <input class="barre_recherche_champs" type="text" placeholder="Par Livre, éditeur...">
         <p class="icon-search"></p>
     </div>
 
 
-    <div class="recherche_section_titre">
+    <!-- SECTION CATEGORIE -->
+    <h2 class="categories_section_titre">Mes catégories</h2>
 
-        <h2>Mes catégories</h2>
+    <div class="categories slider">
+        <a href="../pages/categorieJS.html" class="categories_carte">
+            <p class="categories_titre">PHP</p>
+            <p class="categories_quantite">4 livres</p>
+        </a>
 
+        <a href="../pages/categorieJS.html" class="categories_carte">
+            <p class="categories_titre">Javascript</p>
+            <p class="categories_quantite">4 livres</p>
+        </a>
+
+        <a href="../pages/categorieJS.html" class="categories_carte">
+            <p class="categories_titre">WebDesign</p>
+            <p class="categories_quantite">10 livres</p>
+        </a>
+
+        <a href="../pages/categorieJS.html" class="categories_carte">
+            <p class="categories_titre">JSON</p>
+            <p class="categories_quantite">4 livres</p>
+        </a>
     </div>
-
-    <div class="wrapper">
-        <div class="recherche_section">
-
-        </div>
-
-
-        <div class="categories slider">
-            <a href="../pages/categorieJS.html" class="categories_carte">
-                <p class="categories_titre">PHP</p>
-                <p class="categories_quantite">4 livres</p>
-            </a>
-
-            <a href="../pages/categorieJS.html" class="categories_carte">
-                <p class="categories_titre">Javascript</p>
-                <p class="categories_quantite">4 livres</p>
-            </a>
-
-            <a href="../pages/categorieJS.html" class="categories_carte">
-                <p class="categories_titre">WebDesign</p>
-                <p class="categories_quantite">10 livres</p>
-            </a>
-
-            <a href="../pages/categorieJS.html" class="categories_carte">
-                <p class="categories_titre">JSON</p>
-                <p class="categories_quantite">4 livres</p>
-            </a>
-        </div>
-    </div>
-
-    <div class="recherche_recommandations">
-
-        <h3>Recommandations</h3>
-
-    </div>
-
+    <!-- FIN SECTION CATEGORIE -->
+    
+    
+    
+    
+    <!-- SECTION RECOMMANDATIONS -->
+    <h3 class="recommandations_section_titre">Recommandations</h3>
+    
+    
     <main>
-        <a href="#" class="carte">
+        <a href="#" class="Recommandation">
             <img src="../img/programmingpython.png" alt="">
-
+            
             <div class="fiche">
                 <div class="fiche_infos">
                     <p class="fiche_infos_titre">Programming Python</p>
                     <p class="fiche_infos_auteur">Mark Lutz </p>
                 </div>
-
+                
                 <div class="fiche_note"><img src="../img/Star 5.png" alt="" class="etoile" />
                     <p>4.8 (10)</p>
                 </div>
-                <p class="fiche_nbLecteurs">Lu par 45 personnes</p>
-
+                <p class="fiche_nbLecteurs">Lu par 45 personnes</p> 
             </div>
-
+            
             <div class="etiquette ">
                 <p>Disponible</p>
             </div>
         </a>
-
-        <a href="#" class="carte">
+        
+        <a href="#" class="Recommandation">
             <img src="../img/marketingdigital.jpeg" alt="couverture_livre-typographie_web">
-
+            
             <div class="fiche">
                 <div class="fiche_infos">
                     <p class="fiche_infos_titre">Marketing Digital</p>
@@ -108,85 +97,81 @@
                 <div class="fiche_note"><img src="../img/Star 5.png" alt="" class="etoile" />
                     <p>4.5 (6)</p>
                 </div>
-                <p class="fiche_nbLecteurs">Lu par 10 personnes</p>
-
+                <p class="fiche_nbLecteurs">Lu par 10 personnes</p>  
             </div>
-
+            
             <div class="etiquette indisponible">
                 <p>Indisponible</p>
             </div>
         </a>
-
-        <a href="#" class="carte">
+        
+        <a href="#" class="Recommandation">
             <img src="../img/informatiqueinf.jpg" alt="couverture_livre-typographie_web">
-
+            
             <div class="fiche">
                 <div class="fiche_infos">
                     <p class="fiche_infos_titre">INF Informatique</p>
                     <p class="fiche_infos_auteur">Joelle Delacroix</p>
                 </div>
-
+                
                 <div class="fiche_note"><img src="../img/Star 5.png" alt="" class="etoile" />
                     <p>4.5 (2)</p>
                 </div>
                 <p class="fiche_nbLecteurs">Lu par 10 personnes</p>
-
             </div>
-
+            
             <div class="etiquette indisponible">
                 <p>Indisponible</p>
             </div>
         </a>
-
-
-
-        <a href="#" class="carte">
+        
+        
+        
+        <a href="#" class="Recommandation">
             <img src="../img/programmingandroid.jpg" alt="couverture_livre-typographie_web">
-
+            
             <div class="fiche">
                 <div class="fiche_infos">
                     <p class="fiche_infos_titre">Android</p>
                     <p class="fiche_infos_auteur">Zigurd Mednieks</p>
                 </div>
-
+                
                 <div class="fiche_note"><img src="../img/Star 5.png" alt="" class="etoile" />
                     <p>4.9 (25)</p>
                 </div>
                 <p class="fiche_nbLecteurs">Lu par 150 personnes</p>
-
             </div>
-
+            
             <div class="etiquette ">
                 <p>Disponible</p>
             </div>
         </a>
-
-
-        <a href="#" class="carte">
+        
+        
+        <a href="#" class="Recommandation">
             <img src="../img/thypographieweb.jpg" alt="couverture_livre-typographie_web">
-
+            
             <div class="fiche">
                 <div class="fiche_infos">
                     <p class="fiche_infos_titre">Thypographie Web</p>
                     <p class="fiche_infos_auteur">Jason Santa Maria</p>
                 </div>
-
+                
                 <div class="fiche_note"><img src="../img/Star 5.png" alt="" class="etoile" />
                     <p>4.9 (12)</p>
                 </div>
                 <p class="fiche_nbLecteurs">Lu par 20 personnes</p>
-
             </div>
-
+            
             <div class="etiquette">
                 <p>Disponible</p>
             </div>
         </a>
-
-
+        
     </main>
-
-
+    <!-- FIN SECTION RECOMMANDATIONS -->
+    
+    
 </body>
 
 </html>
