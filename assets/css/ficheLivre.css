@@ -47,13 +47,33 @@ float: right;
         left: 24px;
     }
   
+.blocimage{
+    position: relative;
+}
 
+.blocimage_aside{
+    position: absolute;
+    top : 55px;
+    right:9%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocimage_aside div{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    line-height: 35px;
+    
+}
    .etoile {
         width: 14px;
         height: 15px;
-        
+        position: relative;
+        top: -1px; 
+        margin-right: 5px;
      }
-
+/* 
     .p {
         font-family: Poppins;
 font-style: normal;
@@ -61,7 +81,7 @@ font-weight: normal;
 font-size: 11px;
 line-height: 16px;
 color: #FFFFFF;
-    }
+    } */
 
 
 .infos_livre{
@@ -100,17 +120,17 @@ padding-top: 3px;
   }
 
 .table {
-    font-family: Poppins;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
 line-height: 19px;
 text-align: center;
-padding-top: 16px;
-text-decoration: underline #FFBB0C;
-text-underline-position: 10px;
-/* border-bottom: 1px solid #FFBB0C; */
-margin-bottom: 25px;
+padding-top: 25px;
+border-bottom: 1px solid #FFBB0C;
+padding-bottom: 5px;
+width: fit-content;
+margin: auto;
 }
 
 .bouton_reserver {
@@ -124,7 +144,7 @@ text-align: center;
 background: #3B9C6D;
 border-radius: 10px;
 display: block;
-margin: auto;
+margin: 25px auto 0 auto;
 }
 
 .onglets p{
