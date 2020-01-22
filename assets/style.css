@@ -54,11 +54,13 @@ h2 {
 
 
 .emprunts .emprunts_carte:nth-of-type(1){
+    
     margin-left: 20px;
 }
 
 
 .emprunts_carte{
+    
     width: 214px;
     height: 99px;
     background-color:  var(--couleulivreemprunté);
@@ -79,6 +81,7 @@ h2 {
 }
 
 .emprunts_carte div{
+    
     padding-left: 15px;
 }
 
@@ -121,6 +124,7 @@ h2 {
   }
 
   .emprunts_carte img{
+      
       max-width: 52px;
       border-radius: 5px;
       -webkit-border-radius: 5px;
@@ -210,3 +214,4 @@ opacity: 0.75;
       justify-content: space-between;
       padding: 0 15%;
   }
+  
