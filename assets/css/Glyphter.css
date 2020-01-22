@@ -19,12 +19,10 @@
    -moz-osx-font-smoothing: grayscale;
    font-size: 30px;
 }
-.icon-home:before{content:'\0041';
-}
-.icon-search:before{content:'\0042';}
+.icon-flux:before{content:'\0041';}
+.icon-home:before{content:'\0042';}
 .icon-profil:before{content:'\0043';}
-.icon-flux:before{content:'\0044';}
-
+.icon-search:before{content:'\0044';}
 .active{
     color: #ffbb0c;
 }
