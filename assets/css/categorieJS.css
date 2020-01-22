@@ -3,6 +3,9 @@
     font-size: 13px;
     line-height: 19px;
     color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -10,6 +13,7 @@
     display: flex;
     justify-content:space-between;
     flex-direction: column;
+    min-width: 0;
 }
 
 .carte:last-of-type{
