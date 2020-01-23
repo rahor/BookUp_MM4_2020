@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/reservation.css">
-    <title>Confirmation</title>
+    <title>Reservation</title>
 </head>
 
 
@@ -27,8 +26,10 @@
         </svg>
     </a>
 
+    <!-- TITRE DE LA PAGE -->
     <h2 class="title">Confirmation</h2>
 
+    <!-- SECTION INFOS TUNNEL -->
     <div class="tunnel">
         <div class="tunnel_rond active">
             <p>Mode de retrait</p>
@@ -44,60 +45,61 @@
     </div>
 
 
-    <div class="container">
-
+<!----------- ETAPE 1 --------------->
+    <div class="main">
         <div class="etape" data-id="1">
 
-            <p class="modedderetrait_enmain">Retirer dans un point de retrait</p>
-
-
+            <!-- MODE DE RETRAIT POINT RELAIS -->
             <div class="wrapper">
-                <div class="emprunts_carte">
+                <p class="modedderetrait_titre">Retirer dans un point de retrait</p>
+                <div class="retrait_carte">
                     <img src="../img/4 rue du mail.png" alt="couverture_livre-typographie_web">
 
-                    <div class="emprunts_infos">
-                        <p class="emprunts_infos_titre">Bureau 57, 4ème étage</p>
-                        <p class="emprunts_infos_auteur">Informatik, 4 rue du mail</p>
-                        <p class="emprunts_infos_jour">75003, Paris</p>
+                    <div class="retrait_infos">
+                        <p class="retrait_infos_titre">Bureau 57, 4ème étage</p>
+                        <p class="retrait_infos_auteur">Informatik, 4 rue du mail</p>
+                        <p class="retrait_infos_jour">75003, Paris</p>
                     </div>
 
                 </div>
 
 
-                <div class="emprunts_carte">
+                <div class="retrait_carte">
                     <img src="../img/4 rue du mail.png" alt="couverture_livre-typographie_web">
-                    <div class="emprunts_infos">
-                        <p class="emprunts_infos_titre">Point relais 65, 2ème étage</p>
-                        <p class="emprunts_infos_auteur">Informatik, 4 rue du mail</p>
-                        <p class="emprunts_infos_jour">75003, Paris</p>
+                    <div class="retrait_infos">
+                        <p class="retrait_infos_titre">Point relais 65, 2ème étage</p>
+                        <p class="retrait_infos_auteur">Informatik, 4 rue du mail</p>
+                        <p class="retrait_infos_jour">75003, Paris</p>
                     </div>
 
                 </div>
             </div>
 
 
-            <div class="wrapper"></div>
-            <p class="modedderetrait_enmain">Remise en main propre</p>
-            <div class="emprunts_carte">
-                <img src="../img/ClaireJoseph.png" alt="couverture_livre-typographie_web">
-                <div class="emprunts_infos">
-                    <p class="emprunts_infos_titre">Claire Joseph</p>
-                    <p class="emprunts_infos_auteur">Developpeuse Front</p>
-                    <p class="emprunts_infos_jour">Très reactif</p>
+            <!-- MODE DE RETRAIT MAIN PROPRE -->
+            <div class="wrapper">
+                <p class="modedderetrait_titre">Remise en main propre</p>
+                <div class="retrait_carte">
+                    <img src="../img/ClaireJoseph.png" alt="couverture_livre-typographie_web">
+                    <div class="retrait_infos">
+                        <p class="retrait_infos_titre">Claire Joseph</p>
+                        <p class="retrait_infos_auteur">Developpeuse Front</p>
+                        <p class="retrait_infos_jour">Très reactif</p>
+                    </div>
                 </div>
-
-                <!-- <a href="./reservation1.html" class="bouton_confirmation"> 
-    Choisir ce mode de retrait  </a> -->
             </div>
 
         </div>
 
+
+
+ <!----------- ETAPE 2 --------------->
         <div class="etape" data-id="2">
 
             <p class="confirmation_titre">Récapitulatif de votre emprunt</p>
 
-
-            <a href="./ficheLivre.html" class="carte">
+            <!-- LIVRES INFOS -->
+            <div class="carte">
                 <img src="../img/jspapillon.jpg" alt="couverture_livre-typographie_web">
 
                 <div class="fiche">
@@ -110,9 +112,9 @@
                         <p>4.5 (10)</p>
                     </div>
                 </div>
-            </a>
+            </div>
 
-
+            <!-- RECAPITULATIF INFOS -->
             <div class="recapitulatif_info">
                 <div class="recapitulatif_intitule">
                     <p>Propriétaire</p>
@@ -126,11 +128,8 @@
 
             </div>
 
-
-
-
+            <!-- RECAPITULATIF DATES -->
             <div class="recapitulatif_dates">
-
                 <div class="retrait">
                     <p class="recap_retrait">Retrait Disponible</p>
                     <p class="recap_retrait_date">15-21 Nov</p>
@@ -142,23 +141,22 @@
                 </div>
 
             </div>
-
-
-            <!-- <a href="./reservation.html" class="bouton_confirmation"> 
-Confirmer mon emprunt    </a> -->
         </div>
 
 
+<!----------- ETAPE 3 --------------->
         <div class="etape" data-id="3">
 
             <p class="confirmation_titre"> Votre livre a été bien reservé!</p>
             <p class="confirmation_soustitre">Nous nous occupons du reste</p>
 
+            <!-- LIVRE -->
             <img src="../img/javascript Rhino.jpg" alt="" class="confirmation_image" />
 
-            <p class="confirmation_titrejs">JavaScript: The Definitive Guide 6e (Anglais) Broché</p>
+            <p class="confirmation_titrelivre">JavaScript: The Definitive Guide 6e (Anglais) Broché</p>
             <P class="confirmation_auteur"> David Flanagan</P>
 
+            <!-- TEXTE REASSURANCE -->
             <div class="confirmation_texte">
                 <p class="confirmation_paragraphe"> Vous recevrez une notification pour vous indiquer
                     quand votre livre sera prêt.
@@ -167,21 +165,10 @@ Confirmer mon emprunt    </a> -->
                     livre.
                 </p>
             </div>
-            <!-- 
-<a href="../../index.html" class="bouton_confirmation"> 
-    Retour à l'accueil
-</a> -->
-
-
         </div>
-
 
         <a data-button="1" class="bouton_confirmation">
             Confirmer mon emprunt </a>
-    </div>
-
-
-
     </div>
 
     <script src="../js/script.js"></script>

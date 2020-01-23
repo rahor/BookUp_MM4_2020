@@ -7,7 +7,6 @@
     --couleur-joursdemprunt1: #ff3333;
     --couleurs-joursdeprunt2: #3369ff;
     --couleurs-categoriephp: #7271d4;
-    --couleurs-categoriejs: #3b9c82;
     --couleurs-categoriewebd: #bf6ca3;
     --nav-bg-color: #233449;
     --js-color : #3B9C82;
@@ -75,7 +74,7 @@ color: #FAFAFA;
 
 .fleche{
   position: absolute;
-  top : 28px;
+  top : 25px;
   left: 24px;
 }
 

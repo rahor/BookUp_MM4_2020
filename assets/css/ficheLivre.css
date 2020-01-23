@@ -93,7 +93,7 @@ font-size: 13px;
 line-height: 19px;
 text-align: center;
 padding-top: 25px;
-border-bottom: 1px solid #FFBB0C;
+border-bottom: 1px solid var(--main-color);
 padding-bottom: 5px;
 width: fit-content;
 margin: auto;

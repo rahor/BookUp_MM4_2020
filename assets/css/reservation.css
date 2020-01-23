@@ -1,21 +1,22 @@
 @import "./reset.css"; 
 
-.fleche{
-    position: absolute;
-    top : 25px;
-    left: 24px;
-}
-
+/* ----------ELEMENTS COMMUNS----------- */
 .title{
-position: absolute;
-left: 75px;
+    position: absolute;
+    left: 75px;
 top: 20px;
 font-weight: 600;
-font-size: 20px;
 line-height: 30px;
 }
 
 
+  
+.wrapper{
+    padding-bottom: 10px;
+}
+
+
+/* SECTION TUNNEL */
 .tunnel{
     width: 241px;
     height: 40px;
@@ -23,8 +24,7 @@ line-height: 30px;
     margin: 81px auto 0 auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 
@@ -43,7 +43,7 @@ line-height: 30px;
 .tunnel_rond p{
     position: absolute;
     font-size: 9px;
-line-height: 13px;
+    line-height: 13px;
 top: 25px;
 z-index: 2;
 width:70px;
@@ -62,11 +62,13 @@ left:50%;
     width: 54px;
     background-color: white;
 }
+/* FIN SECTION TUNNEL */
+
 
 
 .etape{
     padding: 30px 30px 75px 30px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     transition: all 1s;
     will-change: transform;
@@ -77,10 +79,36 @@ left:50%;
 }
 
 .etape:nth-child(2),.etape:nth-child(3){
-    opacity: 0;
+    /* opacity: 0; */
     pointer-events: none;
 }
 
+
+.bouton_confirmation {
+    padding: 11px 20px ;
+    width: 280px;
+    height: 47px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    background: var(--disponible-color);
+    border-radius: 10px;
+    margin: 0 auto;
+    
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+}
+
+/* ---------- FIN ELEMENTS COMMUNS----------- */
+
+
+
+
+/* -----------ETAPE 3---------- */
+/* INFOS LIVRE */
 .confirmation_titre {
 font-weight: 600;
 font-size: 20px;
@@ -88,6 +116,9 @@ line-height: 30px;
 text-align: center;
 }
 
+
+
+/* ??? */
 .confirmation_soustitre {
 font-size: 11px;
 line-height: 16px;
@@ -106,21 +137,21 @@ text-align: center;
     -o-border-radius: 10px;
 }
 
-.confirmation_titrejs {
+.confirmation_titrelivre {
 font-weight: 600;
 font-size: 15px;
 line-height: 22px;
 text-align: center;
 } 
 
+
+/* ??? */
 .confirmation_auteur {
 padding: 7px;
 font-weight: normal;
 font-size: 11px;
 line-height: 16px;
 text-align: center;}
-
-
 
 .confirmation_paragraphe{
 padding: 20px 0 0;
@@ -130,34 +161,15 @@ line-height: 15px;
 }
 
 .confirmation_texte{
-padding-top: 10px;
+padding: 10px 0;
 }
 
-
-.bouton_confirmation {
-    padding: 11px 20px ;
-    width: 280px;
-    height: 47px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    background: #3B9C6D;
-    border-radius: 10px;
-    margin: 0 auto;
-    
-    position: fixed;
-    left: 5%;
-    right: 5%;
-bottom: 20px;
-    }
+/* ----------- FIN ETAPE 3 --------- */
 
 
+/* ----------- ETAPE 2 --------- */
 
-
-/* PAGE RECAP */
-
-
+/* INFOS  */
 .recapitulatif_info{
     padding:  5px 0px;
     display: flex;
@@ -178,12 +190,13 @@ bottom: 20px;
     padding-right: 10px;
 }
 
+/* ???? */
 .recapitulatif_valeur{
-    font-weight: normal;
 font-size: 13px;
 line-height: 21px;
 }
 
+/* DATES  */
 .recapitulatif_dates{
     display: flex;
     text-align: center;
@@ -191,6 +204,7 @@ line-height: 21px;
     justify-content: space-around;
 }
 
+/* ??? */
 .recap_retrait, .recap_retour {
 font-weight: bold;
 font-size: 14px;
@@ -201,68 +215,52 @@ line-height: 21px;
 font-weight: bold;
 font-size: 21px;
 line-height: 31px;
-color: #FFBB0C;
+color: var(--main-color);
 padding-top: 15px;
 }
 
-.retrait:first-of-type{
-    margin-right: 10px;
-}
-
-
+/* fzeivbiozvbizo */
 .carte{
     width: 300px;
     margin: auto;
     padding: 20px 10px;
     display: flex;
-    border-bottom: 1px solid grey;
     position: relative;
-    color: white;
 }
+/* e,nvsdvn */
+
+/* ----------- FIN ETAPE 2 --------- */
 
 
-
+/* FACTORISATION POSSIBLE ?? */
 .fiche_infos_titre{
     font-weight: 600;
     font-size: 13px;
-    line-height: 19px;
-    color: #ffffff;
+    line-height: 19px
 }
 
-
+/* FACTORISATION POSSIBLE ??? */
 .fiche{
     display: flex;
     justify-content:space-around;
     flex-direction: column;
+    padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .carte:last-of-type{
     border-bottom: none;
 }
 
-/* .carte img, .carte div{
-    display: inline-block;
-    vertical-align: top;
-} */
-
-.fiche{
-    padding-left: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: flex;
-}
-
-
 .fiche_infos_auteur, .fiche_note{
     font-size: 11px;
     line-height: 16px;
     padding-top: 3px;
-    color: #b6b6b6;
   }
 
   .fiche_note{
     display: flex;
-
   }
   
   .etoile{
@@ -279,162 +277,71 @@ padding-top: 15px;
     
 }
 
+/* ----------- ETAPE 1 --------- */
 
-
-
-/* STEP 1 */
-
-
-
-
-.modederetrait_pointretrait{
-
-    /* heading3 */
-    
-    font-family: Poppins;
-    font-style: normal;
+.retrait_infos_titre, .livre_infos_titre{
     font-weight: 600;
-    font-size: 15px;
-    line-height: 22px;
-    /* identical to box height */
-    
-    
-    color: #FFFFFF;
-    }
-    
-    .wrapper_emprunt_liste {
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 21px;
-      }
-    
-    .titreSection p, .wrapper_emprunt_title p {
-        font-size: 12px;
-        line-height: 18px;
-        color: #ffbb0c;
-    }
-    
-    .wrapper_emprunt_title {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    .emprunts_infos_titre, .livre_infos_titre{
-        font-weight: 600;
-        font-size: 13px;
-        line-height: 19px;
-        color: #ffffff;
-    }
-    
-    
-    .emprunts .emprunts_carte:nth-of-type(1){
-        margin-left: 20px;
-    }
-    
-    
-    .emprunts_carte{
-        width: 100%;
-        height: 99px;
-        background-color:  var(--couleulivreemprunté);
-        padding: 10px;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-        margin-top: 15px;
-        margin-right: 15px;
-        display: flex;
-        align-items: center;
-    }
-    
-    .emprunts_carte img, .emprunts_carte div{
-        display: inline-block;
-        vertical-align: top;
-    }
-    
-    .emprunts_carte div{
-        padding-left: 15px;
-    }
-    
-    
-    
-    
-    .titreSection{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
-        margin-bottom: 16px;
-    }
-    
-    .emprunts_infos_auteur{
-        font-size: 11px;
-        line-height: 16px;
-        padding-top: 3px;
-        color: #ffffff;
-      }
-    
-      .emprunts_infos_jour{
-        font-size: 11px;
-      line-height: 16px;
-      color: #ffffff;  
-     
-      padding-top: 6px;    
-      }
-    
-    
-      .emprunts_carte img{
-          max-width: 65px;
-          max-height: 65px;
-          border-radius: 5px;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          -ms-border-radius: 5px;
-          -o-border-radius: 5px;
-    }
-    
-    .livre img{
-        width: 108px;
-        height: 163px;
-        border-radius:10px ;
-        -webkit-border-radius:10px ;
-        -moz-border-radius:10px ;
-        -ms-border-radius:10px ;
-        -o-border-radius:10px ;
-        padding-bottom: 6px;
-    }
-    
-    .livre{
-        display: inline-block;
-        margin: 0 31px 0 0px;
-        max-width: 108px;
-    }
-    
-    .slider .livre:nth-of-type(1){
-        margin-left: 20px;
-    }
-    
-    
-    
-    .modedderetrait_enmain{
-        
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.retrait_carte{
+    width: 100%;
+    height: 99px;
+    background-color:  var(--couleulivreemprunté);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.retrait_carte img, .retrait_carte div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.retrait_carte div{
+    padding-left: 15px;
+}
+
+
+.retrait_infos_auteur, .retrait_infos_jour{
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 3px;
+}
+
+.retrait_infos_jour {  
+    padding-top: 6px;    
+}
+
+
+.retrait_carte img{
+    max-width: 65px;
+    max-height: 65px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* ----------- FIN ETAPE 1 --------- */
+
+
+/* ??? */
+.modedderetrait_titre{  
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     padding-top: 10px;
     }
     
-    
-    .wrapper{
-        padding-bottom: 10px;
-    }
-    
-    
-    
-    .emprunts_carte:hover{
+.retrait_carte:hover{
        box-shadow:0px 0px 0px 1px var(--main-color) inset;
     }
