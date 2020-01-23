@@ -1,5 +1,5 @@
 @import "./reset.css"; 
-
+/* SECTION TITRE */
 .fiche {
     padding: 24px 0 0 20%;
     width: 100%;
@@ -13,42 +13,30 @@
 }
 
 .fiche_titre { 
-    
-    font-family: Poppins;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-
 }
 
+
+/* SECTION IMAGE */
 .img_principale {
         width: 28%;
         border-radius: 10px;
         margin: -25px auto 0 auto;
         display: block;
-
      }
 
-     .boutondispo {
-        width: 66px;
-        height: 21.15px;
-        background: #3B9C6D;
-        border-radius: 7px;
-        padding: 4px;
-        font-weight: bold;
-font-size: 10px;
-line-height: 15px;
-text-align: center;
-float: right;
+.boutondispo {
+    width: 66px;
+    background: #3B9C6D;
+    border-radius: 7px;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
      }
 
-.fleche{
-      position: absolute;
-      top : 28px;
-      left: 24px;
-    }
-  
 .blocimage{
     position: relative;
 }
@@ -66,7 +54,6 @@ float: right;
     align-items: center;
     font-size: 11px;
     line-height: 35px;
-    
 }
 
 .etoile {
@@ -77,6 +64,7 @@ float: right;
         margin-right: 5px;
      }
 
+/* INFORMATIONS */
 .infos_livre{
     text-align: center;
     padding-top: 12px ;
@@ -99,23 +87,8 @@ padding-top: 3px;
     padding-top: 6px;
 }
 
-.livre_infos_titre{
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 19px;
-    color: #ffffff;
-}
-.livre_infos_auteur{
-    font-size: 11px;
-    line-height: 16px;
-    padding-top: 3px;
-    color: #b6b6b6;
-  }
-
+/* TABLE DES MATIERES */
 .table {
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
 font-size: 13px;
 line-height: 19px;
 text-align: center;
@@ -126,6 +99,7 @@ width: fit-content;
 margin: auto;
 }
 
+/* BOUTON */
 .bouton_reserver {
 padding: 11px 90px ;
 width: 296.8px;
@@ -140,6 +114,8 @@ display: block;
 margin: 25px auto 0 auto;
 }
 
+
+/* ONGLETS */
 .onglets p{
 font-family: Poppins;
 font-style: normal;
@@ -151,12 +127,15 @@ display: inline-block;
 margin-right: 10%;
 }
 
-.onglets p:first-of-type{
-    color: #FFBB0C;
-    opacity:1;
+.onglets{
+    margin-top: 25px;
+}
+.onglets, .resume{
+    padding: 0 25px;
 }
 
 
+/* SECTION RESUME */
 .resume h4 {
     padding-top: 25px;
 font-weight: bold;
@@ -171,95 +150,10 @@ font-size: 13px;
 line-height: 20px;
 }
 
-.onglets{
-    margin-top: 25px;
-}
-.onglets, .resume{
-    padding: 0 25px;
-}
 
+/* OVERWRITE */
 h3{
     padding-top: 30px;
     padding-left: 25px;
     padding-bottom: 15px;
-font-weight: 600;
-font-size: 15px;
-line-height: 22px;
-}
-
-
-
-
-/* CATEGORIES */
-.categories_carte{ 
-    padding: 7px 16px;
-    width: 144px;
-    height: 71px;
-    background-color: #7271D4;
-    border-radius: 5px;
-    color: white;
-}
-
-.categories_titre {
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 27px;
-}
-
-.categories_quantite {
-    font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 22px;
-opacity: 0.75;
-}
-
-
-.slider {
-    position: relative;
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    transition: all 0.2s;
-    will-change: transform;
-    user-select: none;
-    cursor: pointer;
-    padding-bottom: 25px;
-  }
-
-
- 
-  .categories_carte{
-    display: inline-block;
-    margin: 0 9px 0 0px;
-  }
-  .categories .categories_carte:nth-of-type(1){
-      margin-left: 25px;
-  }
-
-
-  /* LIVRES SIMILAIRES */
-  .livre img{
-    width: 108px;
-    height: 163px;
-    border-radius:10px ;
-    -webkit-border-radius:10px ;
-    -moz-border-radius:10px ;
-    -ms-border-radius:10px ;
-    -o-border-radius:10px ;
-    padding-bottom: 6px;
-}
-
-.livre{
-    display: inline-block;
-    margin: 0 31px 0 0px;
-    max-width: 108px;
-}
-
-.slider .livre:nth-of-type(1){
-    margin-left: 25px;
 }
