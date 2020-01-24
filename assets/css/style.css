@@ -195,22 +195,22 @@ opacity: 0.8;
   /* CATEGORIES COULEURS */
 
   .categories_carte:nth-of-type(1){
-    background-color: #7271D4;
+    background-color: var(--couleurs-categoriephp);
 }
 
 
 .categories_carte:nth-of-type(2){
-    background-color: #3B9C82;
+    background-color: var(--couleurs-categoriejs);
 }
 
 
 .categories_carte:nth-of-type(3){
-    background-color: #BF6CA3;
+    background-color: var(--couleurs-categoriewebd);
 }
 
 
 .categories_carte:nth-of-type(4){
-    background-color: #F4DC9C;
+    background-color: var(--couleurs-categoriejson);
 }
 /* FIN CATEGORIES */
 
