@@ -18,7 +18,7 @@
 }
 
 .barre_recherche_champs::placeholder{
-    color: #FFFFFF;
+    color: var(--text-color);
     opacity: 0.5;
 }
 
@@ -55,7 +55,7 @@
     margin: auto;
     padding: 20px 10px;
     display: flex;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid var(--text-color);
     position: relative;
 }
 
@@ -63,7 +63,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 19px;
-    color: #ffffff;
+    color: var(--text-color);
 }
 
 .fiche{
@@ -83,7 +83,7 @@
     font-size: 11px;
     line-height: 16px;
     padding-top: 3px;
-    color: #b6b6b6;
+    color: var(--infoauteur-color);
   }
 
 .fiche_note{
@@ -97,7 +97,7 @@
 .fiche_nbLecteurs{
     font-size: 10px;
     line-height: 15px; 
-    color: #B6B6B6;
+    color: var(--lecteurinfo-color);
 }
 
 .recommandation img{

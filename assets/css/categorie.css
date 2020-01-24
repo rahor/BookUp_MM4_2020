@@ -2,9 +2,9 @@
     padding: 7px 16px;
     width: 144px;
     height: 71px;
-    background-color: #7271D4;
+    background-color: var(--couleurs-categoriephp);
     border-radius: 5px;
-    color: white;
+    color: var(--text-color);
 
 }
 .titrecategorie {

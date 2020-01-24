@@ -13,7 +13,10 @@
     --nav-bg-color: #233449;
     --js-color : #3B9C82;
     --disponible-color: #3B9C6D;
-    --indisponible-color: #9C3B3B;
+    --indisponible-color: #9C3B3B; 
+    --infoauteur-color: #b6b6b6;
+    --lecteurinfo-color: #B6B6B6;
+    --couleur-categoriecarte: #7271D4;
   }
 
 *,

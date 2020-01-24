@@ -18,7 +18,7 @@
     line-height: 22px;
     width: fit-content;
     margin: auto;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--text-color);
     position: relative;
 }
 
@@ -81,9 +81,9 @@
     margin: auto;
     padding: 20px 10px;
     display: flex;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid var(--text-color);
     position: relative;
-    color: white;
+    color: var(--text-color);
 }
 
 .fiche_infos_titre{
@@ -113,7 +113,7 @@
     font-size: 11px;
     line-height: 16px;
     padding-top: 3px;
-    color: #b6b6b6;
+    color:  var(--infoauteur-color);
 }
 
 .fiche_note{
@@ -127,7 +127,7 @@
 .fiche_nbLecteurs{
     font-size: 10px;
     line-height: 15px; 
-    color: #B6B6B6;
+    color: var(--infoauteur-color);
 }
 
 .recommandation img{

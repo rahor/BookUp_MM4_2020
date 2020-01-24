@@ -92,12 +92,12 @@ nav{
     font-size: 11px;
     line-height: 16px;
     padding-top: 3px;
-    color: #b6b6b6;
+    color: var(--infoauteur-color);
 }
 .emprunts_infos_jour{
     font-size: 11px;
     line-height: 16px;
-    color: #ff3333;  
+    color: var(--couleur-joursdemprunt1);
     text-align: right;
     padding-top: 12px;    
 }
@@ -164,9 +164,9 @@ nav{
     padding: 7px 16px;
     width: 144px;
     height: 71px;
-    background-color: #7271D4;
+    background-color: var(--couleur-categoriecarte);
     border-radius: 5px;
-    color: white;
+    color: var(--text-color);
     display: inline-block;
     margin: 0 9px 0 0px;
 }
