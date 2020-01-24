@@ -55,7 +55,7 @@ left:50%;
 }
 
 
-.active{
+.tunnel_rond_active{
     background-color: var(--main-color);
     color: var(--main-color);
 }
@@ -73,6 +73,7 @@ left:50%;
     padding: 30px 30px 75px 30px;
     position: absolute;
     width: 100%;
+    height: 80%;
     transition: all 1s;
     will-change: transform;
     -webkit-transition: all 1s;
@@ -110,21 +111,15 @@ left:50%;
     background: var(--disponible-color);
     border-radius: 10px;
     margin: 0 auto;
-    /* opacity: 0; */
+    
     position: absolute;
     left: 5%;
     right: 5%;
     bottom: 20px;
-    /* pointer-events: none; */
+    
+    border: none;
+    color: var(--text-color);
 }
-
-
-/* 
-.bouton_confirmation:first-of-type{
-    opacity: 0.5;
-    pointer-events: none;
-} */
-
 /* ---------- FIN ELEMENTS COMMUNS----------- */
 
 

@@ -14,12 +14,26 @@ function clickHandler(e) {
   for (const step of stepElems) {
     const stepIndex = parseInt(step.dataset.step, 10);
     
-    if (stepIndex === intent+1) {
+    if (stepIndex === intent) {
       step.classList.add("step-active");
     } else {
       step.classList.remove("step-active");
     }
   }
+
+
+  for (const roundStep of roundStepElems) {
+    console.log(roundStep)
+    const stepIndex1 = parseInt(roundStep.dataset.step, 10);
+    console.log(stepIndex1)
+
+    if (stepIndex1 === intent) {
+      roundStep.classList.add("tunnel_rond_active");
+    } else {
+      roundStep.classList.remove("tunnel_rond_active");
+    }
+  }
+
 }
 
 for (const buttonElem of buttonElems) {

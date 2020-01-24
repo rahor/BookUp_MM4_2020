@@ -31,7 +31,7 @@
 
     <!-- SECTION INFOS TUNNEL -->
     <div class="tunnel">
-        <div class="tunnel_rond active" data-step="1">
+        <div class="tunnel_rond tunnel_rond_active" data-step="0">
             <p>Mode de retrait</p>
         </div>
         <div class="line"></div>
@@ -39,7 +39,7 @@
             <p>Récapitulatif</p>
         </div>
         <div class="line"></div>
-        <div class="tunnel_rond ">
+        <div class="tunnel_rond " data-step="2">
             <p>Confirmation</p>
         </div>
     </div>
@@ -47,7 +47,7 @@
 
 <!----------- ETAPE 1 --------------->
     <div class="main">
-        <div class="step step-active" data-step="1">
+        <div class="step step-active" data-step="0">
 
             <!-- MODE DE RETRAIT POINT RELAIS -->
             <div class="wrapper">
@@ -90,13 +90,13 @@
             </div>
          
 
-            <a class="bouton_confirmation" data-intent="1">Choisir ce mode de retrait</a>
+            <button class="bouton_confirmation" data-intent="1">Choisir ce mode de retrait</button>
         </div>
 
 
 
  <!----------- ETAPE 2 --------------->
-        <div class="step " data-step="2">
+        <div class="step " data-step="1">
 
             <p class="confirmation_titre">Récapitulatif de votre emprunt</p>
 
@@ -144,12 +144,12 @@
 
             </div>
          
-            <a class="bouton_confirmation" data-intent="2">Continuer</a>
+            <button class="bouton_confirmation" data-intent="2">Continuer</button>
         </div>
 
 
 <!----------- ETAPE 3 --------------->
-        <div class="step " data-step="3">
+        <div class="step " data-step="2">
 
             <p class="confirmation_titre"> Votre livre a été bien reservé!</p>
             <p class="confirmation_soustitre">Nous nous occupons du reste</p>
