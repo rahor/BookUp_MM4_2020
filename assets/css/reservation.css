@@ -118,6 +118,11 @@ left:50%;
     border: none;
     color: var(--text-color);
 }
+
+
+.disabled{
+    opacity: .7;
+}
 /* ---------- FIN ELEMENTS COMMUNS----------- */
 
 
@@ -132,9 +137,6 @@ line-height: 30px;
 text-align: center;
 }
 
-
-
-/* ??? */
 .confirmation_soustitre {
 font-size: 11px;
 line-height: 16px;
@@ -160,8 +162,6 @@ line-height: 22px;
 text-align: center;
 } 
 
-
-/* ??? */
 .confirmation_auteur {
 padding: 7px;
 font-weight: normal;
@@ -206,7 +206,6 @@ padding: 10px 0;
     padding-right: 10px;
 }
 
-/* ???? */
 .recapitulatif_valeur{
 font-size: 13px;
 line-height: 21px;
@@ -220,7 +219,7 @@ line-height: 21px;
     justify-content: space-around;
 }
 
-/* ??? */
+
 .recap_retrait, .recap_retour {
 font-weight: bold;
 font-size: 14px;
@@ -235,27 +234,25 @@ color: var(--main-color);
 padding-top: 15px;
 }
 
-/* fzeivbiozvbizo */
 .carte{
     width: 300px;
     margin: auto;
     padding: 20px 10px;
     display: flex;
     position: relative;
+    max-width: 100%;
 }
-/* e,nvsdvn */
+
 
 /* ----------- FIN step 2 --------- */
 
 
-/* FACTORISATION POSSIBLE ?? */
 .fiche_infos_titre{
     font-weight: 600;
     font-size: 13px;
     line-height: 19px
 }
 
-/* FACTORISATION POSSIBLE ??? */
 .fiche{
     display: flex;
     justify-content:space-around;
@@ -350,7 +347,6 @@ padding-top: 15px;
 /* ----------- FIN step 1 --------- */
 
 
-/* ??? */
 .modedderetrait_titre{  
     font-weight: 600;
     font-size: 15px;

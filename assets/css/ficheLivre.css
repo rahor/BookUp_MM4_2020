@@ -15,6 +15,10 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    padding-right: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -101,14 +105,6 @@ margin: auto;
 /* BOUTON */
 .bouton_reserver {
 padding: 11px 90px ;
-width: 296.8px;
-height: 47px;
-font-weight: bold;
-font-size: 18px;
-line-height: 27px;
-text-align: center;
-background: var(--disponible-color);
-border-radius: 10px;
 display: block;
 margin: 25px auto 0 auto;
 }
@@ -150,7 +146,7 @@ line-height: 20px;
 }
 
 
-/* OVERWRITE */
+/* placement de h3 */
 h3{
     padding-top: 30px;
     padding-left: 25px;

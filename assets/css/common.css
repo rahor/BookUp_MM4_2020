@@ -109,6 +109,17 @@ nav {
   top: 25px;
   left: 24px;
 }
+
+.bouton{
+  width: 280px;
+height: 47px;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+background: var(--disponible-color);
+border-radius: 10px;
+}
 /* FIN ELEMENTS FIXES */
 
 
@@ -213,6 +224,8 @@ opacity: 0.8;
   max-width: 108px;
 }
 
+
+
 /*------------ FIN SLIDER LIVRE------- */
 
 /*--------- RECOMMANDATIONS LIVRES------- */
@@ -230,6 +243,9 @@ opacity: 0.8;
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: var(--text-color);
 }
 
@@ -240,6 +256,7 @@ opacity: 0.8;
   padding-left: 18px;
   padding-top: 5px;
   padding-bottom: 5px;
+  overflow: hidden;
 }
 
 .recommandation:last-of-type{
