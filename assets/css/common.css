@@ -1,37 +1,39 @@
-:root{
-    --main-color: #ffbb0c;
-    --text-color: #fff;
-    --background-color: #191e2d;
-    --h1-couleur: #cdcdcd;
-    --couleulivreemprunté: #233449; 
-    --couleur-joursdemprunt1: #ff3333;
-    --couleurs-joursdeprunt2: #3369ff;
-    --couleurs-categoriephp: #7271d4;
-    --couleurs-categoriejs: #3B9C82;
-    --couleurs-categoriewebd: #bf6ca3;
-    --couleurs-categoriejson: #F4DC9C;
-    --nav-bg-color: #233449;
-    --js-color : #3B9C82;
-    --disponible-color: #3B9C6D;
-    --indisponible-color: #9C3B3B; 
-    --infoauteur-color: #b6b6b6;
-    --lecteurinfo-color: #B6B6B6;
-    --couleur-categoriecarte: #7271D4;
-  }
+@import "./Glyphter.css"; 
+/* COLORS */
+:root {
+  --main-color: #ffbb0c;
+  --text-color: #fff;
+  --background-color: #191e2d;
+  --h1-couleur: #cdcdcd;
+  --couleulivreemprunté: #233449;
+  --couleur-joursdemprunt1: #ff3333;
+  --couleurs-joursdeprunt2: #3369ff;
+  --couleurs-categoriephp: #7271d4;
+  --couleurs-categoriejs: #3B9C82;
+  --couleurs-categoriewebd: #bf6ca3;
+  --couleurs-categoriejson: #F4DC9C;
+  --nav-bg-color: #233449;
+  --js-color: #3B9C82;
+  --disponible-color: #3B9C6D;
+  --indisponible-color: #9C3B3B;
+  --infoauteur-color: #b6b6b6;
+  --lecteurinfo-color: #B6B6B6;
+  --couleur-categoriecarte: #7271D4;
+}
 
-*,
-*:before,
-*:after {
+
+*, *:before, *:after {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
 /*
-  LOCAL RESET
+STYLES DE TITRES
 */
+
 body {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
   margin: 0;
   color: var(--text-color);
@@ -47,55 +49,142 @@ a:hover {
   cursor: pointer;
 }
 
-nav{
-    position: fixed;
-    max-width: 560px;
-    width: 100%;
-    height: 52px;
-    bottom: 0px;
-    background-color: var(--nav-bg-color) ;
-    z-index: 1000;
-    border-radius:15px 15px 0 0;
-    -webkit-border-radius:15px 15px 0 0;
-    -moz-border-radius:15px 15px 0 0;
-    -ms-border-radius:15px 15px 0 0;
-    -o-border-radius:15px 15px 0 0;
-}
 
-.indisponible{
-  background-color: var(--indisponible-color);
-}
-
-h1{
+h1 {
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
 }
 
-body{
+body {
   padding-bottom: 50px;
 }
 
 h2 {
   font-weight: 600;
   font-size: 20px;
-  line-height: 30px;  
+  line-height: 30px;
   opacity: 0.9;
 }
 
-
-h3{
-  /* max-width: 40%; */
+h3 {
   font-weight: 600;
-font-size: 15px;
-line-height: 22px;
-color: #FAFAFA;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FAFAFA;
 }
 
+/* Elements fixes */
 
-.fleche{
+
+/* NAVIGATION */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+nav {
+  position: fixed;
+  max-width: 560px;
+  width: 100%;
+  height: 52px;
+  bottom: 0px;
+  background-color: var(--nav-bg-color);
+  z-index: 1000;
+  border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  -ms-border-radius: 15px 15px 0 0;
+  -o-border-radius: 15px 15px 0 0;
+}
+
+.fleche {
   position: absolute;
-  top : 25px;
+  top: 25px;
   left: 24px;
 }
+/* FIN ELEMENTS FIXES */
 
+
+/* STATES */
+.indisponible {
+  background-color: var(--indisponible-color);
+}
+
+
+
+/* CATEGORIES */
+.categories_carte{ 
+  padding: 7px 16px;
+  width: 144px;
+  height: 71px;
+  background-color: var(--couleur-categoriecarte);
+  border-radius: 5px;
+  color: var(--text-color);
+  display: inline-block;
+  margin: 0 9px 0 0px;
+}
+
+.categories_titre {
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+}
+
+.categories_quantite {
+font-size: 15px;
+line-height: 22px;
+opacity: 0.8;
+}
+
+
+.categories .categories_carte:nth-of-type(1){
+    margin-left: 20px;
+}
+
+
+
+/* CATEGORIES COULEURS */
+
+.categories_carte:nth-of-type(1){
+  background-color: var(--couleurs-categoriephp);
+}
+
+
+.categories_carte:nth-of-type(2){
+  background-color: var(--couleurs-categoriejs);
+}
+
+
+.categories_carte:nth-of-type(3){
+  background-color: var(--couleurs-categoriewebd);
+}
+
+
+.categories_carte:nth-of-type(4){
+  background-color: var(--couleurs-categoriejson);
+}
+/* FIN CATEGORIES */
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  will-change: transform;
+  user-select: none;
+  cursor: pointer;
+  padding-bottom: 25px;
+}
+
+.slider .livre:nth-of-type(1){
+  margin-left: 20px;
+}

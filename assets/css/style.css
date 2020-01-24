@@ -1,23 +1,5 @@
 @import "./Glyphter.css"; 
 
-body{
-    padding-bottom: 50px;
-}
-
-h2 {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;  
-    opacity: 0.9;
-}
-
-/* NAVIGATION */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15%;
-}
 
 
 /* SECTION TITRES h1 */
@@ -156,60 +138,4 @@ nav{
     margin-left: 20px;
 }
 /* FIN SECTIONS LIVRES */
-
-
-/* SECTION CATEGORIES */
-.categories_carte{ 
-    padding: 7px 16px;
-    width: 144px;
-    height: 71px;
-    background-color: var(--couleur-categoriecarte);
-    border-radius: 5px;
-    color: var(--text-color);
-    display: inline-block;
-    margin: 0 9px 0 0px;
-}
-
-.categories_titre {
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 27px;
-}
-
-.categories_quantite {
-font-size: 15px;
-line-height: 22px;
-opacity: 0.8;
-}
-
-
-  .categories .categories_carte:nth-of-type(1){
-      margin-left: 20px;
-  }
-
-
-
-  /* CATEGORIES COULEURS */
-
-  .categories_carte:nth-of-type(1){
-    background-color: var(--couleurs-categoriephp);
-}
-
-
-.categories_carte:nth-of-type(2){
-    background-color: var(--couleurs-categoriejs);
-}
-
-
-.categories_carte:nth-of-type(3){
-    background-color: var(--couleurs-categoriewebd);
-}
-
-
-.categories_carte:nth-of-type(4){
-    background-color: var(--couleurs-categoriejson);
-}
-/* FIN CATEGORIES */
 
