@@ -1,17 +1,14 @@
-@import "./css/reset.css"; 
-@import "./css/Glyphter.css"; 
+@import "./reset.css"; 
+@import "./Glyphter.css"; 
 
 body{
     padding-bottom: 50px;
 }
 
-
-
 h2 {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;  
-    color: #ffffff;
     opacity: 0.9;
 }
 
@@ -44,7 +41,7 @@ nav{
 .titreSection p, .container_emprunt_title p {
     font-size: 12px;
     line-height: 18px;
-    color: #ffbb0c;
+    color: var(--main-color);
 }
 
 .container_emprunt_title {
@@ -59,7 +56,6 @@ nav{
     font-weight: 600;
     font-size: 13px;
     line-height: 19px;
-    color: #ffffff;
 }
 
 
