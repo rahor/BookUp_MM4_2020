@@ -1,3 +1,34 @@
+const stepElems = document.getElementsByClassName("step");
+const buttonElems = document.getElementsByClassName("btn-next");
+const stepTitle = document.getElementById("stepTitle");
+
+const stepTitles = ["first", "second", "third", "fourth", "fith"];
+
+function clickHandler(e) {
+  const target = e.target;
+  const intent = parseInt(target.dataset.intent, 10);
+
+  stepTitle.innerHTML = stepTitles[intent];
+
+  for (const step of stepElems) {
+    const stepIndex = parseInt(step.dataset.step, 10);
+    if (stepIndex === intent) {
+      step.classList.add("step-active");
+    } else {
+      step.classList.remove("step-active");
+    }
+  }
+}
+
+for (const buttonElem of buttonElems) {
+  buttonElem.addEventListener("click", clickHandler);
+}
+
+
+
+
+
+
 
 
 var steps = [
