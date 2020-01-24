@@ -1,7 +1,3 @@
-.titre {
-    padding: 15px 20px;
-}
-
 /* BARRE DE RECHERCHE */
 .barre_recherche_champs{
     padding: 10px 10px;
@@ -48,88 +44,7 @@
     font-size: 15px;
     line-height: 22px;
 }
-
-
-.recommandation{
-    width: 90%;
-    margin: auto;
-    padding: 20px 10px;
-    display: flex;
-    border-bottom: 1px solid var(--text-color);
-    position: relative;
-}
-
-.fiche_infos_titre{
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 19px;
-    color: var(--text-color);
-}
-
-.fiche{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
-    padding-left: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.recommandation:last-of-type{
-    border-bottom: none;
-}
-
-.fiche_infos_auteur, .fiche_note{
-    font-size: 11px;
-    line-height: 16px;
-    padding-top: 3px;
-    color: var(--infoauteur-color);
-  }
-
-.fiche_note{
-    display: flex;
-  }
-  
-.etoile{
-    margin-right: 5px;
-  }
-
-.fiche_nbLecteurs{
-    font-size: 10px;
-    line-height: 15px; 
-    color: var(--lecteurinfo-color);
-}
-
-.recommandation img{
-    max-width: 72px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    
-}
-/* FIN SECTION RECOMMANDATIONS */
-
-
-/* ETIQUETTE */
-.etiquette{
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
-    font-style: normal;
-    padding: 3px 5px;
-    background-color: var(--disponible-color);
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-    position: absolute;
-    top: 45%;
-    right: 1%;
-}
-
+/* ?????????????? */
 
 main{
     padding-bottom: 15px;
