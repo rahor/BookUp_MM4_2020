@@ -27,17 +27,15 @@
     </a>
 
     <!-- TITRE DE LA PAGE -->
-    <h2 class="title" data-title='0'>Mode de retrait</h2>
-    <h2 class="title" data-title='1'>Récapitulatif</h2>
-    <h2 class="title" data-title='2'>Confirmation</h2>
+    <h2 id="stepTitle">Mode de retrait</h2>
 
     <!-- SECTION INFOS TUNNEL -->
     <div class="tunnel">
-        <div class="tunnel_rond active">
+        <div class="tunnel_rond active" data-step="1">
             <p>Mode de retrait</p>
         </div>
         <div class="line"></div>
-        <div class="tunnel_rond ">
+        <div class="tunnel_rond " data-step="1">
             <p>Récapitulatif</p>
         </div>
         <div class="line"></div>
@@ -49,7 +47,7 @@
 
 <!----------- ETAPE 1 --------------->
     <div class="main">
-        <div class="step " data-id="1">
+        <div class="step step-active" data-step="1">
 
             <!-- MODE DE RETRAIT POINT RELAIS -->
             <div class="wrapper">
@@ -91,12 +89,14 @@
                 </div>
             </div>
          
+
+            <a class="bouton_confirmation" data-intent="1">Choisir ce mode de retrait</a>
         </div>
 
 
 
  <!----------- ETAPE 2 --------------->
-        <div class="step " data-id="2">
+        <div class="step " data-step="2">
 
             <p class="confirmation_titre">Récapitulatif de votre emprunt</p>
 
@@ -144,11 +144,12 @@
 
             </div>
          
+            <a class="bouton_confirmation" data-intent="2">Continuer</a>
         </div>
 
 
 <!----------- ETAPE 3 --------------->
-        <div class="step " data-id="3">
+        <div class="step " data-step="3">
 
             <p class="confirmation_titre"> Votre livre a été bien reservé!</p>
             <p class="confirmation_soustitre">Nous nous occupons du reste</p>
@@ -169,13 +170,13 @@
                 </p>
             </div>
 
-
+            <a  href='../../index.html' class="bouton_confirmation" data-intent="3">Confirmer mon emprunt</a>
          
         </div>
 
-        <a class="bouton_confirmation">Choisir ce mode de retrait</a>
-        <a class="bouton_confirmation">Continuer</a>
-        <a  href='../../index.html' class="bouton_confirmation">Confirmer mon emprunt</a>
+        
+ 
+      
     </div>
 
     <script src="../js/script.js"></script>
