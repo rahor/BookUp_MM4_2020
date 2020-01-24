@@ -43,7 +43,7 @@ for (var j = 0; j < step_button.length; j++) {
       if (rond[i].classList.contains("active")) {
         rond[i].classList.remove("active");
         rond[i + 1].classList.add("active");
-        steps[i].style.opacity = "0";
+        steps[i].style.opacity = "0"; 
         steps[i].style.pointerEvents = "none";
         steps[i + 1].style.opacity = "1";
         steps[i + 1].style.transform = "scale(1)";

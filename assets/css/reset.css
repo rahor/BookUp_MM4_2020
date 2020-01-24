@@ -1,7 +1,7 @@
 :root{
     --main-color: #ffbb0c;
     --text-color: #fff;
-    --couleur-background: #191e2d;
+    --background-color: #191e2d;
     --h1-couleur: #cdcdcd;
     --couleulivreemprunté: #233449; 
     --couleur-joursdemprunt1: #ff3333;
@@ -26,22 +26,21 @@
   LOCAL RESET
 */
 body {
-    background-color: var(--couleur-background);
+    background-color: var(--background-color);
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
   margin: 0;
-  color: white;
+  color: var(--text-color);
   max-width: 560px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 
 a:hover {
   cursor: pointer;
 }
-
 
 nav{
     position: fixed;
@@ -62,6 +61,23 @@ nav{
   background-color: var(--indisponible-color);
 }
 
+h1{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+body{
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;  
+  opacity: 0.9;
+}
+
 
 h3{
   /* max-width: 40%; */
@@ -76,13 +92,4 @@ color: #FAFAFA;
   position: absolute;
   top : 25px;
   left: 24px;
-}
-
-
-
-h1{
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  
 }
